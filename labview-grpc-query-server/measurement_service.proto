@@ -1,0 +1,162 @@
+//---------------------------------------------------------------------
+// Copyright 2020 National Instruments
+//
+// Licensed under the MIT License;
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://mit-license.org/
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//---------------------------------------------------------------------
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+syntax = "proto3";
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+option java_multiple_files = true;
+option java_package = "labview.measurementservice";
+option java_outer_classname = "MeasurementService";
+option objc_class_prefix = "LVMS";
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+package measurementservice;
+
+//---------------------------------------------------------------------
+// The MeasurementService service definition.
+//---------------------------------------------------------------------
+service MeasurementService {
+  
+  rpc Invoke (InvokeRequest) returns (InvokeResponse) {}
+  
+  rpc Query (QueryRequest) returns (QueryResponse) {}
+  
+  rpc SendConfig (ConfigRequest) returns (ConfigAck) {}
+
+  rpc PerformFourProbeMeasurement (FourProbeRequest) returns (FourProbeData) {}
+
+  rpc StreamFourProbeMeasurement (FourProbeRequest) returns (stream FourProbeRaw) {}
+
+  rpc StreamError (ErrorRequest) returns (stream ErrorOut) {}
+
+  rpc Register (RegistrationRequest) returns (stream ServerEvent) {}
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message ErrorRequest {
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message ErrorOut {
+  int32 errCode = 1;
+  string errMessage = 2;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message FourProbeRaw {
+  double posVoltage = 1;
+  double posCurrent = 3;
+  double negVoltage = 2;
+  double negCurrent = 4;
+  double impedance = 5;
+  ErrorOut error = 6;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message FourProbeData {
+  repeated FourProbeRaw data = 1;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message FourProbeRequest {
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message InvokeRequest {
+  string command = 1;
+  string parameter = 2;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message InvokeResponse {
+  int32 status = 1;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message QueryRequest {
+  string query = 1;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message QueryResponse {
+  string message = 1;
+  int32 status = 2;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message RegistrationRequest {
+  string eventName = 1;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message ServerEvent {
+  string eventData = 1;
+  int32 serverId = 2;
+  int32 status = 3;
+}
+
+message ConfigRequest {
+  string SMUResourceName                        = 1;
+  string SMUChannels                            = 2;
+  int32  SMUSourceMode                          = 3;
+  int32  SMUOutputFunction                      = 4;
+  int32  SMUSourceTransientResponse             = 5;
+  float  SMUCurrent                             = 6;
+  float  SMUCurrentLevelRange                   = 7;
+  int32  SMUMeasurementSense                    = 8;
+  float  SMUMeasurementApertureTime             = 9;
+  float  SMUSourceAdvancedSourceDelay           = 10;
+  float  SMUVoltage                             = 11;
+  int32  SMUSourceAdvancedSequenceLoopCount     = 12;
+  int32  SMUMeasurementAdvancedDCNoiseRejection = 13;
+  string SMUSequenceName                        = 14;
+  string ScanList                               = 15;
+  string DMMResourceName                        = 16;
+  int32  DMMFunction                            = 17;
+  float  DMMResolution                          = 18;
+  float  DMMRange                               = 19;
+  int32  DMMSampleCount                         = 20;
+  int32  DMMApertureTimeUnit                    = 21;
+  float  DMMApertureTime                        = 22;
+  int32  DMMNumberOfAverages                    = 23;
+  int32  DMMAutoZero                            = 24;
+  int32  DMMADCCalibration                      = 25;
+  float  DMMSettleTime                          = 26;
+  int32  DMMControlAction                       = 27;
+  float  DMMVoltageFaultUpperLimit              = 28;
+  int32  ApplicationNumberOfWeldChannels        = 29;
+}
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+message ConfigAck {
+  bool acknowledge = 1;
+}
