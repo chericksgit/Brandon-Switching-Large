@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Miscellaneous" familyname="Miscellaneous">
+</nifamily>
+</nicomment>
+<nierror code="-419100">
+RM-26999: (Hex 0xFFF99AE4) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419101">
+RM-26999: (Hex 0xFFF99AE3) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419102">
+RM-26999: (Hex 0xFFF99AE2) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419110">
+RM-26999: (Hex 0xFFF99ADA) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419112">
+RM-26999: (Hex 0xFFF99AD8) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419113">
+RM-26999: (Hex 0xFFF99AD7) Erreur interne : veuillez contacter le support technique de National Instruments.
+</nierror>
+<nierror code="-419003">
+RM-26999: (Hex 0xFFF99B45) Le connecteur maître spécifié ne correspond pas à un périphérique de la Série X valide. Consultez le manuel d'utilisation du RM-26999 pour obtenir la liste des maîtres valides.
+</nierror>
+<nierror code="-419004">
+RM-26999: (Hex 0xFFF99B44) Le connecteur maître spécifié n'est pas supporté. Consultez le manuel d'utilisation du RM-26999 pour obtenir la liste des maîtres valides.
+</nierror>
+<nierror code="-419005">
+RM-26999: (Hex 0xFFF99B43) Une voie physique spécifiée n'a pas été initialisée. Appelez 'RM-26999 Initialize Voltage Channel' ou 'RM-26999 Initialize Current Channel' pour utiliser la voie avec la session RM-26999.
+</nierror>
+<nierror code="-419006">
+RM-26999: (Hex 0xFFF99B42) Le type de la voie spécifiée n'était pas compatible. L'entrée 'voies physiques' ne doit inclure que des voies de type approprié.
+</nierror>
+<nierror code="-419007">
+RM-26999: (Hex 0xFFF99B41) La session RM-26999 ne contient aucune voie applicable. Appelez 'RM-26999 Initialize Voltage Channel' ou 'RM-26999 Initialize Current Channel' pour ajouter des voies à la session.
+</nierror>
+<nierror code="-419008">
+RM-26999: (Hex 0xFFF99B40) Le connecteur maître spécifié n'est pas valide.
+</nierror>
+<nierror code="-419009">
+RM-26999: (Hex 0xFFF99B3F) L'API RM-26999 a rencontré une erreur de communication avec le périphérique. Veuillez vérifier le câblage et vous assurer que le périphérique est bien sous tension. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419011">
+RM-26999: (Hex 0xFFF99B3D) L'API RM-26999 n'a pas pu établir de communication avec le périphérique. Veuillez vérifier le câblage et vous assurer que le périphérique est bien sous tension. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419014">
+RM-26999: (Hex 0xFFF99B3A) Une voie dans la session RM-26999 a une configuration de terminal d'entrée non supportée à partir de DAQmx - Créer une voie virtuelle. Seuls 'Differential' ou 'Pseudodifferential' sont supportés par le RM-26999. Veuillez sélectionner une configuration de terminal valide avec l'API NI-DAQmx.
+</nierror>
+<nierror code="-419015">
+RM-26999: (Hex 0xFFF99B39) Une valeur de shunt de 0 ohm n'est pas supportée. Veuillez spécifier la valeur de la résistance de shunt connectée au transducteur.
+</nierror>
+<nierror code="-419016">
+RM-26999: (Hex 0xFFF99B38) Impossible de réserver une interface numérique au RM-26999. Assurez-vous qu'une seule session est associée à chaque périphérique.
+</nierror>
+<nierror code="-419017">
+RM-26999: (Hex 0xFFF99B37) Une échelle personnalisée non appliquée par l'API RM-26999 a été détectée sur la tâche d'entrée analogique. La tâche d'entrée analogique DAQmx ne peut pas avoir une échelle personnalisée spécifiée par l'utilisateur lorsqu'elle est utilisée avec l'API RM-26999.
+</nierror>
+<nierror code="-419018">
+RM-26999: (Hex 0xFFF99B36) Une voie dans la session RM-26999 comporte un type de mesure non supporté à partir de DAQmx - Créer une voie virtuelle. Veuillez configurer toutes les voies RM-26999 dans NI-DAQmx en tant que type de mesure d'entrée AI 'Voltage' (Tension).
+</nierror>
+<nierror code="-419019">
+RM-26999: (Hex 0xFFF99B35) La voie 'RM-26999 Auto-Zero Voltage Channel' n'a pas pu s'exécuter car au moins une voie d'entrée de tension est déjà réservée par une autre tâche. Veuillez d'abord supprimer ou libérer la tâche externe.
+</nierror>
+<nierror code="-419020">
+RM-26999: (Hex 0xFFF99B34) La source d'entrée de tension spécifiée n'est pas valide. '_external_connector' et '_aignd_vs_aignd' sont des entrées valides.
+</nierror>
+<nierror code="-419021">
+RM-26999: (Hex 0xFFF99B33) La tâche d'entrée analogique DAQmx RM-26999 fournie n'est pas valide. Veuillez utiliser DAQmx - Créer une voie virtuelle pour créer une tâche d'entrée analogique.
+</nierror>
+<nierror code="-419022">
+RM-26999: (Hex 0xFFF99B32) La tâche d'entrée analogique RM-26999 DAQmx est en cours d'exécution. Veuillez d'abord arrêter la tâche.
+</nierror>
+<nierror code="-419024">
+RM-26999: (Hex 0xFFF99B30) La session RM-26999 a été fermée. Veuillez vous assurer que le fil de liaison de la session est correctement connecté dans la bonne séquence.
+</nierror>
+<nierror code="-419025">
+RM-26999: (Hex 0xFFF99B2F) Erreur de timeout à la lecture de la température. Veuillez vérifier le câblage et vous assurer que le périphérique est bien sous tension. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419027">
+RM-26999: (Hex 0xFFF99B2D) Aucune voie physique n'a été spécifiée à l'ouverture de la session d'étalonnage. Une voie au moins doit être spécifiée et il est recommandé que toutes les voies d'un périphérique soient étalonnées ensemble.
+</nierror>
+<nierror code="-419028">
+RM-26999: (Hex 0xFFF99B2C) Les voies physiques spécifiées incluent les voies de plus d'un connecteur. Un seul connecteur peut être étalonné à la fois.
+</nierror>
+<nierror code="419029">
+RM-26999: (Hex 0x664D5) Un point d'étalonnage supplémentaire a été fourni une fois l'étape d'étalonnage de ce chemin et de cette voie de signal terminée.
+</nierror>
+<nierror code="-419030">
+RM-26999: (Hex 0xFFF99B2A) Le gain CC calculé était en dehors des limites attendues. Si ce problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419031">
+RM-26999: (Hex 0xFFF99B29) La session d'étalonnage a détecté qu'une étape inattendue était en cours d'exécution. Veuillez vous assurer que vous suivez exactement la procédure d'étalonnage.
+</nierror>
+<nierror code="-419032">
+RM-26999: (Hex 0xFFF99B28) La tension de référence d'entrée CC spécifiée ne correspond strictement à aucune des tensions d'ajustement données dans 'RM-26999 Configure DC Calibration Stimulus'.
+</nierror>
+<nierror code="-419033">
+RM-26999: (Hex 0xFFF99B27) L'amplitude de l'offset mesuré était exceptionnellement grande.  Veuillez vous assurer que chaque terminal d'entrée de tension est connecté à la terre. Si ce problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419034">
+RM-26999: (Hex 0xFFF99B26) La tension d'entrée CA est hors de la gamme acceptable. Veuillez ajuster la tension d'entrée CA à une valeur efficace supérieure à 10 V.
+</nierror>
+<nierror code="-419035">
+RM-26999: (Hex 0xFFF99B25) La boucle PID de l'étape d'ajustement CA n'a pas pu conserver sa fréquence de boucle. Assurez-vous que les ressources de l'ordinateur peuvent être consacrées à ce sous-programme d'étalonnage.
+</nierror>
+<nierror code="-419036">
+RM-26999: (Hex 0xFFF99B24) L'erreur calculée pour la linéarisation du gain de ce périphérique est en dehors des spécifications. Si ce problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419037">
+RM-26999: (Hex 0xFFF99B23) 'RM-26999 Adjust DC Gain calibration' nécessite l'appel préalable de 'Configure DC Calibration Stimulus'.
+</nierror>
+<nierror code="-419038">
+RM-26999: (Hex 0xFFF99B22) Au moins cinq tensions d'étalonnage doivent être fournies pour l'étalonnage du gain CC.
+</nierror>
+<nierror code="-419039">
+RM-26999: (Hex 0xFFF99B21) L'alimentation externe n'a pas été détectée ou les capteurs de courant consomment trop d'énergie. Vérifiez les connexions de l'alimentation externe et assurez-vous qu'elle peut fournir le courant maximum consommé par vos transducteurs. Si le problème persiste, contactez le support technique de National Instruments.
+</nierror>
+<nierror code="-419040">
+RM-26999: (Hex 0xFFF99B20) Vous ne pouvez spécifier qu'une seule voie à la fois pour les étapes d'étalonnage CC.
+</nierror>
+<nierror code="-419041">
+RM-26999: (Hex 0xFFF99B1F) Un seul facteur de correction doit être spécifié pour chaque voie étalonnée.
+</nierror>
+<nierror code="-419042">
+RM-26999: (Hex 0xFFF99B1E) Au moins deux tensions d'étalonnage doivent être positives et au moins deux tensions d'étalonnage doivent être négatives pour l'étalonnage du gain CC.
+</nierror>
+<nierror code="-419043">
+RM-26999: (Hex 0xFFF99B1D) L'étalonnage du gain CC doit avoir au moins un point positif et un point négatif ayant chacun une amplitude supérieure à 900 volts.
+</nierror>
+</nidocument>

@@ -1,0 +1,559 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Electrical Power Toolkit" displayname="Electrical Power Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-363499">
+Electrical Power Toolkit:  <b>time multiplier setting</b>の範囲は、0.025～20である必要があります。
+</nierror>
+<nierror code="-363498">
+Electrical Power Toolkit:  <b>GD</b>の範囲は、2～64である必要があります。
+</nierror>
+<nierror code="-363497">
+Electrical Power Toolkit:  <b>reset time parameters</b>は、0より大きい必要があります。
+</nierror>
+<nierror code="-363496">
+Electrical Power Toolkit:  <b>curve data</b>は、0以上である必要があります。
+</nierror>
+<nierror code="-363495">
+Electrical Power Toolkit:  <b>pick-up signal?</b>がまだFALSEなのに、入力励起数量<b>G</b>が収集設定値<b>Gs</b>を超えているか、下回っています。
+</nierror>
+<nierror code="-363494">
+Electrical Power Toolkit:  <b>reset level</b>は、「FPGA Threshold (Over)」VIの<b>Gs</b>以下、または「FPGA Threshold (Under)」VIの<b>Gs</b>以上である必要があります。
+</nierror>
+<nierror code="-363469">
+Electrical Power Toolkit:  .cfgファイルのデータファイルタイプが無効です。
+</nierror>
+<nierror code="-363450">
+Electrical Power Toolkit:  入力フレームタイプは、それぞれのフレーム構文解析VIで指定されたタイプと一致している必要があります。
+</nierror>
+<nierror code="-363449">
+Electrical Power Toolkit:  <b>latitude</b>の範囲は、-90.0～+90.0である必要があります。
+</nierror>
+<nierror code="-363448">
+Electrical Power Toolkit:  <b>longitude</b>の範囲は、-179.99999999～+180である必要があります。
+</nierror>
+<nierror code="-363447">
+Electrical Power Toolkit:  構成フレームの<b>phasor channels</b>配列内の<b>phasor name</b>には、繰り返しの値が含まれています。<b>phasor name</b>は、一意である必要があります。
+</nierror>
+<nierror code="-363446">
+Electrical Power Toolkit:  フレームのサイズは、65,535バイト以下である必要があります。
+</nierror>
+<nierror code="-363420">
+Electrical Power Toolkit:  入力電圧チャンネル数の合計は4未満である必要があります。
+</nierror>
+<nierror code="-363399">
+Electrical Power Toolkit:  <b>nominal voltage</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-363398">
+Electrical Power Toolkit:  バス内の3相システムIDは固有である必要があります。
+</nierror>
+<nierror code="-363397">
+Electrical Power Toolkit:  1つの電圧システムまたは電流システム内の<b>チャンネル位相</b>は固有である必要があります。
+</nierror>
+<nierror code="-363396">
+Electrical Power Toolkit:  <b>physical channel index</b>は、[0, バスのチャンネル数合計] の範囲内である必要があります。
+</nierror>
+<nierror code="-363395">
+Electrical Power Toolkit:  各チャンネルの<b>physical channel index</b>は、1つのバスで固有である必要があります。
+</nierror>
+<nierror code="-363369">
+Electrical Power Toolkit:  入力スペクトルの配列要素はデルタ次数と同じである必要があります。
+</nierror>
+<nierror code="-363368">
+Electrical Power Toolkit:  ブロックあたりのサイクル数は、0以上でなければなりません。
+</nierror>
+<nierror code="-363359">
+Electrical Power Toolkit:  入力信号(1/<b>dt</b>)のサンプルレートは、0より大きくする必要があります。 
+</nierror>
+<nierror code="-363358">
+Electrical Power Toolkit:  <b>data in</b>配列の入力信号は、同じサンプルレートである必要があります。
+</nierror>
+<nierror code="-363357">
+Electrical Power Toolkit:  入力信号のサンプルレートが変更されました。一定したサンプルレートを使用する必要があります。
+</nierror>
+<nierror code="-363356">
+Electrical Power Toolkit:  サンプル数は1以上である必要があります。
+</nierror>
+<nierror code="-363355">
+Electrical Power Toolkit:  <b>data in</b>配列の入力信号は、サンプル数が同じである必要があります。
+</nierror>
+<nierror code="-363344">
+Electrical Power Toolkit:  <b>frequency range</b>クラスタで<b>maximum</b>は<b>minimum</b>を超える必要があります。
+</nierror>
+<nierror code="-363343">
+Electrical Power Toolkit:  <b>frequency range</b>クラスタの<b>minimum</b>は0.1 Hz以上である必要があります。<b>frequency range</b>クラスタの<b>maximum</b>はナイキスト周波数未満である必要があります。
+</nierror>
+<nierror code="-363342">
+Electrical Power Toolkit:  <b>passband ripple</b>と<b>stopband attenuation</b>は、0よりも大きくする必要があります。
+</nierror>
+<nierror code="-363341">
+Electrical Power Toolkit:  <b>passband edge frequency</b>は、<b>stopband edge frequency</b>よりも小さくする必要があります。
+</nierror>
+<nierror code="-363340">
+Electrical Power Toolkit:  <b>passband edge frequency</b>と<b>stopband edge frequency</b>は、0より大きく、かつナイキスト周波数未満にする必要があります。
+</nierror>
+<nierror code="-363339">
+Electrical Power Toolkit:  <b>trigger times</b>は、0より大きく、かつ昇順に並んでいる必要があります。
+</nierror>
+<nierror code="-363338">
+Electrical Power Toolkit:  <b>triggers per cycle</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-363337">
+Electrical Power Toolkit:  <b>samples per cycle</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-363336">
+Electrical Power Toolkit:  <b>times</b>と<b>resampled signal</b>の配列サイズは、同じである必要があります。
+</nierror>
+<nierror code="-363335">
+Electrical Power Toolkit:  <b>resampled data</b>配列の<b>times</b>は、同じである必要があります。
+</nierror>
+<nierror code="-363334">
+Electrical Power Toolkit:  <b>resampled data</b>配列の<b>times</b>は、0より大きく、かつ昇順に並んでいる必要があります。
+</nierror>
+<nierror code="-363314">
+Electrical Power Toolkit:  入力電圧データ配列のサイズは入力電圧データ配列と同じである必要があります。
+</nierror>
+<nierror code="-363313">
+Electrical Power Toolkit:  <b>window length</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-363312">
+Electrical Power Toolkit:  速度を推定するには、サンプリング周波数を500 Hzより大きくする必要があります。
+</nierror>
+<nierror code="-363311">
+Electrical Power Toolkit:  <b>synchronous speed</b>は、<b>full load speed</b>以上である必要があります。
+</nierror>
+<nierror code="-363310">
+Electrical Power Toolkit:  <b>synchronous speed</b>と<b>full load speed</b>は、50 Hzシステムでは [0, 3000] の範囲内、60 Hzシステムでは [0,3600] の範囲内である必要があります。
+</nierror>
+<nierror code="-363309">
+Electrical Power Toolkit:  ネームプレートデータの配列サイズは、単相信号アルゴリズムの波形の配列サイズと同じである必要があります。ネームプレートデータの配列サイズは、3相信号アルゴリズムの波形の配列サイズと3倍である必要があります。
+</nierror>
+<nierror code="-363308">
+Electrical Power Toolkit:  <b>df</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-363307">
+Electrical Power Toolkit:  <b>f0</b>は、0以上である必要があります。
+</nierror>
+<nierror code="-363306">
+Electrical Power Toolkit:  <b>slip</b>と<b>speed</b>は、0以上である必要があります。
+</nierror>
+<nierror code="-363305">
+Electrical Power Toolkit:  <b>fundamental frequency</b>は、0より大きくする必要があります。 
+</nierror>
+<nierror code="-363304">
+Electrical Power Toolkit:  <b>spectra</b>の配列サイズは、<b>speed</b>の配列サイズと同じである必要があります。
+</nierror>
+<nierror code="-363303">
+Electrical Power Toolkit:  入力データの配列サイズは3の倍数である必要があります。 
+</nierror>
+<nierror code="-363302">
+Electrical Power Toolkit:  <b>maximum frequency</b>を0より大きく、かつナイキスト周波数未満にする必要があります。 
+</nierror>
+<nierror code="-363301">
+Electrical Power Toolkit:  <b>% overlap</b>は、[0, 100] の範囲内でなければなりません。
+</nierror>
+<nierror code="-363300">
+Electrical Power Toolkit:  <b>number of lines</b>は、1以上である必要があります。
+</nierror>
+<nierror code="-361782">
+Electrical Power Toolkit:  <b>max sideband order</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-361781">
+Electrical Power Toolkit:  入力データの配列サイズは、単相信号の場合は1、3相信号の場合は3である必要があります。
+</nierror>
+<nierror code="-361780">
+Electrical Power Toolkit:  <b>additional efficiency information</b>の配列サイズは、<b>nameplate information</b>のサイズ以下である必要があります。
+</nierror>
+<nierror code="-361779">
+Electrical Power Toolkit:  <b>1/2 load efficiency</b>を指定する前に、<b>3/4 load efficiency</b>を指定する必要があります。<b>1/4 load efficiency</b>を指定する前に、<b>3/4 load efficiency</b>および<b>1/2 load efficiency</b>を指定する必要があります。
+</nierror>
+<nierror code="-361778">
+Electrical Power Toolkit:  <b>speed</b>、<b>nameplate information</b>、<b>total input active power</b>の配列サイズは同じである必要があります。
+</nierror>
+<nierror code="-361777">
+Electrical Power Toolkit:  信号は連続である必要があります。
+</nierror>
+<nierror code="-361776">
+Electrical Power Toolkit:  入力波形の配列サイズは、<b>stator resistance</b>の配列サイズの3倍である必要があります。
+</nierror>
+<nierror code="-361775">
+Electrical Power Toolkit:  <b>speed</b>、<b>motor information</b>、<b>total input active power</b>、<b>stator resistance</b>の配列サイズは同じである必要があります。
+</nierror>
+<nierror code="-361773">
+Electrical Power Toolkit:  <b>stator resistance</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-361772">
+Electrical Power Toolkit:  <b>efficiency</b>は、[0, 100] の範囲内である必要があります。
+</nierror>
+<nierror code="-361771">
+Electrical Power Toolkit:  <b>full load</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-361770">
+Electrical Power Toolkit:  <b>speed</b>は、0以上である必要があります。
+</nierror>
+<nierror code="-361760">
+Electrical Power Toolkit:  <b>電圧チャンネル</b>または<b>電流チャンネル</b>の物理チャンネルは、<b>バス構成</b>で少なくとも1つの値が設定されている必要があります。
+</nierror>
+<nierror code="-354699">
+Electrical Power Toolkit:  このVIをリアルタイムターゲットで実行する場合、<b>開くモード(open mode)</b>をCreateまたはCreate or replaceに設定する必要があります。
+</nierror>
+<nierror code="-354698">
+Electrical Power Toolkit:  <b>analog channel info</b>および <b>status channel info</b>の数値は空白以外もしくは999,999を超えない値である必要があります。
+</nierror>
+<nierror code="-354697">
+Electrical Power Toolkit:  <b>タイムスタンプ乗数（timestamp multiplier）</b>は0以上である必要があります。
+</nierror>
+<nierror code="-354696">
+Electrical Power Toolkit:  データチャネル番号が実際の構成と一致していません。
+</nierror>
+<nierror code="-354695">
+Electrical Power Toolkit:  必要なファイルが開かれていません。
+</nierror>
+<nierror code="-354694">
+Electrical Power Toolkit:  製造者の名前は文字で始まる必要があります。
+</nierror>
+<nierror code="-354693">
+Electrical Power Toolkit:  エントリ名の文字のASCIIコードは10進数で33から127の間である必要があります。
+</nierror>
+<nierror code="-354692">
+Electrical Power Toolkit:  エントリ名は3～32文字の1つの単語で始まる必要があります。
+</nierror>
+<nierror code="-354691">
+Electrical Power Toolkit:  <b>開くモード(open mode)</b>をCreateまたはCreate or replaceに設定する必要があります。
+</nierror>
+<nierror code="-354690">
+Electrical Power Toolkit:  <b>開くモード(open mode）</b>をOpen (read only)に設定する必要があります。
+</nierror>
+<nierror code="-354689">
+Electrical Power Toolkit:  <b>物理チャンネル</b>には、同じチャネルが複数存在します。
+</nierror>
+<nierror code="-354688">
+Electrical Power Toolkit:  <b>物理チャンネル</b>の構成フレームには、指定されたフェーザチャネルが存在しません。
+</nierror>
+<nierror code="-354687">
+Electrical Power Toolkit:  <b>reporting rate</b>が無効です。 50 Hzシステムの有効なレポートレートは、10 fps、25 fps、50 fpsです。 60 Hzシステムの有効なレポートレートは、10 fps、12 fps、15 fps、20 fps、30 fps、60 fpsです。
+</nierror>
+<nierror code="-354686">
+Electrical Power Toolkit:  <b>タイムベース</b>は、1～2^24-1である必要があります。
+</nierror>
+<nierror code="-354685">
+Electrical Power Toolkit:  デジタルワードごとの最大チャネル数は16です。
+</nierror>
+<nierror code="-354684">
+Electrical Power Toolkit:  <b>フェーザ</b>および<b>振幅および位相</b>は配列サイズが同じことが必要です。
+</nierror>
+<nierror code="-354683">
+Electrical Power Toolkit:  <b>frequency high limit</b>、<b>frequency low limit</b>、<b>df/dt limit</b>には、すべて0より大きい値を設定する必要があります。
+</nierror>
+<nierror code="-354682">
+Electrical Power Toolkit:  <b>frequency high limit</b>には、<b>frequency low limit</b>より大きい値を設定する必要があります。
+</nierror>
+<nierror code="-354681">
+Electrical Power Toolkit:  <b>magnitude low limit</b>と<b>magnitude high limit</b>には、0より大きい値を設定する必要があります。
+</nierror>
+<nierror code="-354680">
+Electrical Power Toolkit:  <b>magnitude high limit</b>には、<b>magnitude low limit</b>より大きい値を設定する必要があります。
+</nierror>
+<nierror code="-354679">
+Electrical Power Toolkit:  <b>phase-angle diff limit</b>には、0より大きく、π以下の値を設定する必要があります。
+</nierror>
+<nierror code="-354678">
+Electrical Power Toolkit:  <b>magnitudes in</b>および<b>timestamps</b>のサイズは物理チャンネル数と同じである必要があります。
+</nierror>
+<nierror code="-354677">
+Electrical Power Toolkit:  <b>magnitudes</b>、<b>phases</b>、<b>timestamps</b>のチャンネル数は同じである必要があります。
+</nierror>
+<nierror code="-354676">
+Electrical Power Toolkit:  <b>data in</b>のサンプル数は、前回の反復からの<b>samples to read</b>の値と同じである必要があります。
+</nierror>
+<nierror code="-354675">
+Electrical Power Toolkit:  <b>GPS information</b>のサンプル数は、前回の反復からの<b>samples to read</b>の値と同じである必要があります。
+</nierror>
+<nierror code="-354674">
+Electrical Power Toolkit:  <b>max time error</b>は0以上である必要があります。
+</nierror>
+<nierror code="-354673">
+Electrical Power Toolkit:  <b>channel index</b>は、チャンネル数未満である必要があります。
+</nierror>
+<nierror code="-354672">
+Electrical Power Toolkit:  <b>nominal Fs/actual Fs</b>は、0より大きくする必要があります。
+</nierror>
+<nierror code="-354671">
+Electrical Power Toolkit:  1つの3位相電源システムでは、<b>物理チャンネル</b>に位相/ニュートラル電圧と位相/位相電圧の両方を同時に使用することはできません。
+</nierror>
+<nierror code="-354669">
+Electrical Power Toolkit:  合算間隔には、その合算間隔の次に高い時間単位で割り切れる値を指定する必要があります。たとえば、時間単位として秒を指定した場合、次に高い時間単位は分です。この場合、60の除数である10、12、15、20などの値が合算間隔として指定できます。
+</nierror>
+<nierror code="-354668">
+Electrical Power Toolkit:  合算間隔（aggregation interval）は、以後2回の時間差よりも大きくする必要があります。
+</nierror>
+<nierror code="-354667">
+Electrical Power Toolkit:  <b>データフラッグ(data flags)</b>のサイズは、<b>データ(data)</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354666">
+Electrical Power Toolkit:  <b>データフラッグ(data flags)</b>の第1次元のサイズは、<b>データ(data)</b>の第1次元のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354665">
+Electrical Power Toolkit:  <b>EN50160限度(EN50160 limits)</b>のサイズは、<b>データ(data)</b>の第3次元のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354664">
+Electrical Power Toolkit:  <b>channel units</b>の長さが範囲外です。 <b>channel units</b>の長さは[1,32]の範囲内である必要があります。
+</nierror>
+<nierror code="-354659">
+Electrical Power Toolkit:  <b>最小変化レート（min rate of change）</b>が範囲外です。
+</nierror>
+<nierror code="-354658">
+Electrical Power Toolkit:  <b>最大電圧変化（max voltage change）</b>が範囲外です。
+</nierror>
+<nierror code="-354657">
+Electrical Power Toolkit:  <b>最小安定状態差異（min steady state difference）</b>が範囲外です。
+</nierror>
+<nierror code="-354656">
+Electrical Power Toolkit:  <b>安定状態の安定度（steadiness of steady state）</b>が範囲外です。
+</nierror>
+<nierror code="-354655">
+Electrical Power Toolkit:  <b>最小安定状態期間（min steady state duration）</b>が範囲外です。
+</nierror>
+<nierror code="-354654">
+Electrical Power Toolkit:  <b>上昇しきい値（swell threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354653">
+Electrical Power Toolkit:  <b>低下しきい値（dip threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354652">
+Electrical Power Toolkit:  <b>中断しきい値（interruption threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354651">
+Electrical Power Toolkit:  <b>ヒステリシス</b>が範囲外です。
+</nierror>
+<nierror code="-354649">
+Electrical Power Toolkit:  <b>実際の範囲(actual ranges）</b>のサイズは、<b>スペクトル(spectra in)</b>のサイズと同じである必要が???ります。
+</nierror>
+<nierror code="-354648">
+Electrical Power Toolkit:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第1次元のサイズは、<b>スペクトル(spectra in)</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354647">
+Electrical Power Toolkit:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第2次元のサイズは、<b>キャリブレーション周波数（frequencies to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354646">
+Electrical Power Toolkit:  <b>ゲイン(gains)</b>と<b>位相遅延(phase delays)</b>の第3次元のサイズは、<b>キャリブレーション範囲（ranges to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354645">
+Electrical Power Toolkit:  物理チャンネルの構成は<b>データ(data in)</b>の配線情報と一致しません。
+</nierror>
+<nierror code="-354644">
+Electrical Power Toolkit:  <b>キャリブレーション周波数(frequencies to calibrate)</b>の値は昇順である必要があります。
+</nierror>
+<nierror code="-354643">
+Electrical Power Toolkit:  <b>位相遅延（phase delays）</b>の行数は、<b>１サイクル基本ベクトル（one-cycle fundamental vectors in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354642">
+Electrical Power Toolkit:  <b>位相遅延（phase delays）</b>の列数は、<b>キャリブレーション範囲（ranges to calibrate）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354641">
+Electrical Power Toolkit:  <b>実際の範囲（actual ranges）</b>のサイズは、<b>１サイクル基本ベクトル（one-cycle fundamental vectors in）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354640">
+Electrical Power Toolkit:  <b>キャリブレーション範囲(ranges to calibrate)</b>の値は昇順である必要があります。
+</nierror>
+<nierror code="-354639">
+Electrical Power Toolkit:  <b>全範囲のRMS値（full-range RMS values）</b>のサイズは、<b>波形（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354638">
+Electrical Power Toolkit:  <b>オフセット</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354637">
+Electrical Power Toolkit:  <b>ゲイン</b>の行数は、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354636">
+Electrical Power Toolkit:  <b>ゲイン(gains)</b>の列数は、<b>キャリブレーション範囲(ranges to calibrate)</b>の列数と同じである必要があります。
+</nierror>
+<nierror code="-354635">
+Electrical Power Toolkit:  <b>実際の範囲(actual ranges）</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズと同じである必要があります。
+</nierror>
+<nierror code="-354634">
+Electrical Power Toolkit:  <b>検知しきい値（detection threshold）</b>が範囲外です。
+</nierror>
+<nierror code="-354633">
+Electrical Power Toolkit:  <b>開始論理1長（start logical 0 length）</b>が範囲外です。
+</nierror>
+<nierror code="-354632">
+Electrical Power Toolkit:  <b>開始論理0長（start logical 0 length）</b>が範囲外です。
+</nierror>
+<nierror code="-354631">
+Electrical Power Toolkit:  <b>最大イベント長</b>が範囲外です。
+</nierror>
+<nierror code="-354630">
+Electrical Power Toolkit:  <b>信号周波数</b>が範囲外です。
+</nierror>
+<nierror code="-354629">
+Electrical Power Toolkit:  <b>データ指標</b>の値が<b>データ（data in）</b>の値と一致しません。
+</nierror>
+<nierror code="-354628">
+Electrical Power Toolkit:  <b>スペクトル指標</b>または<b>ベクトル指標</b>の値が<b>複素スペクトル</b>と一致しません。
+</nierror>
+<nierror code="-354627">
+Electrical Power Toolkit:  <b>データ(data in)</b>の列数は物理チャンネル数と一致しません。
+</nierror>
+<nierror code="-354626">
+Electrical Power Toolkit:  <b>チャンネル指標(channel index)</b>の値が<b>波形(waveforms)</b>と一致しません。
+</nierror>
+<nierror code="-354625">
+Electrical Power Toolkit:  <b>上限</b>は<b>下限</b>よりも大きくする必要があります。
+</nierror>
+<nierror code="-354624">
+Electrical Power Toolkit:  <b>ヒステリシス</b>は0以上である必要があります。
+</nierror>
+<nierror code="-354623">
+Electrical Power Toolkit:  有効なデジタル数式関数ではありません。
+</nierror>
+<nierror code="-354622">
+Electrical Power Toolkit:  <b>データ(data in)</b>の行数は10または12サイクル毎のサンプル数と一致しません。
+</nierror>
+<nierror code="-354619">
+Electrical Power Toolkit:  <b>感度（sensitivity）</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354618">
+Electrical Power Toolkit:  <b>CT/VT率(CT/VT ratio)</b>のサイズは、<b>波形サイズ（waveforms in）</b>のサイズ以上である必要があります。
+</nierror>
+<nierror code="-354617">
+Electrical Power Toolkit:  サンプル数/サイクルは128から512の範囲である必要があります。
+</nierror>
+<nierror code="-354616">
+Electrical Power Toolkit:  サイクルごとのサンプル数は偶数である必要があります。
+</nierror>
+<nierror code="-354615">
+Electrical Power Toolkit:  「DAQmxタイミング(サンプルクロック)」VIの<b>レート</b>は、「Initialize System」VIの<b>samples per cycle</b>に、50 Hzの電力システムでは57.5を掛けた値、60 Hzの電力システムでは69を掛けた値よりも大きくする必要があります。
+</nierror>
+<nierror code="-354614">
+Electrical Power Toolkit:  <b>チャネル数</b>は1から16の間である必要があります。
+</nierror>
+<nierror code="-354613">
+Electrical Power Toolkit:  <b>参照チャネル指標（reference channel index）</b>は、<b>チャネル数</b>よりも小さくする必要があります。
+</nierror>
+<nierror code="-354612">
+Electrical Power Toolkit:  サイクルごとのサンプル数は192である必要があります。
+</nierror>
+<nierror code="-354611">
+Electrical Power Toolkit:  <b>number of channels</b>は [1, 32] の範囲である必要があります。
+</nierror>
+<nierror code="-354609">
+Electrical Power Toolkit:  <b>間隔長</b>が範囲外です。 <b>間隔長</b>をマイナスにすることはできません。
+</nierror>
+<nierror code="-354608">
+Electrical Power Toolkit:  電力システムの同じ位相の入力電圧信号と入力電流信号のサンプルレートは同じである必要があります。
+</nierror>
+<nierror code="-354607">
+Electrical Power Toolkit:  電力システムの同じ位相の入力電圧信号と入力電流信号のサンプル数は同じである必要があります。
+</nierror>
+<nierror code="-354606">
+Electrical Power Toolkit:  <b>maximum harmonic order</b>は、(サイクルあたりサンプル数-1)/2以下である必要があります。
+</nierror>
+<nierror code="-354605">
+Electrical Power Toolkit:  入力スペクトルの<b>delta order</b>は0より大きい必要があり、かつ<b>delta order</b>の逆数が整数である必要があります。
+</nierror>
+<nierror code="-354604">
+Electrical Power Toolkit:  入力配列のサイズは3である必要があります。
+</nierror>
+<nierror code="354608">
+Electrical Power Toolkit:  <b>3相電力値</b>は、入力電圧チャンネルおよび入力電流チャンネルの数が3の倍数である場合にのみ有効です。
+</nierror>
+<nierror code="354609">
+Electrical Power Toolkit:  電圧データと電流データのチャネル数が等しくありません。
+</nierror>
+<nierror code="354615">
+Electrical Power Toolkit:  各システムの入力電圧チャンネルは、A（L1）、B（L2）、C（L3）である必要があります。
+</nierror>
+<nierror code="354618">
+Electrical Power Toolkit:  バランスの不均衡なシステムでは、再計算した位相電圧が近似値です。
+</nierror>
+<nierror code="354630">
+Electrical Power Toolkit:  このVIは位相Nを計算しません。
+</nierror>
+<nierror code="354669">
+Electrical Power Toolkit:  有効な結果を得るには、入力データ配列の長さは少なくとも一週間である必要があります。
+</nierror>
+<nierror code="354671">
+Electrical Power Toolkit:  <b>analogs</b>の形式は16ビット整数で、<b>analogs</b>は範囲外です。 システムを初期化するときに、<b>analogs</b>の形式を32ビット浮動小数点に変更してください。
+</nierror>
+<nierror code="354672">
+Electrical Power Toolkit:  <b>df/dt</b>は16ビット整数で、範囲外です。 システムを初期化するときに、<b>df/dt</b>の形式を32ビット浮動小数点に変更してください。
+</nierror>
+<nierror code="354673">
+Electrical Power Toolkit:  公称周波数からの周波数偏差は16ビット整数で、範囲外です。 システムを初期化するときに、<b>frequency</b>の形式を32ビット浮動小数点に変更してください。
+</nierror>
+<nierror code="354674">
+Electrical Power Toolkit:  <b>phasors</b>の形式は16ビット整数で、<b>phasors</b>は範囲外です。 システムを初期化するときに、<b>phasors</b>の形式を32ビット浮動小数点に変更してください。
+</nierror>
+<nierror code="354675">
+Electrical Power Toolkit:  <b>ID</b>が範囲外です。<b>ID</b>は、1～65,534の範囲内である必要があります。
+</nierror>
+<nierror code="354676">
+Electrical Power Toolkit:  フェーザ値をスケールして、その値を浮動小数点で送信する場合は、スケール係数が1であり、角オフセット値が<b>CFG-3</b>で0であることを確認してください。
+</nierror>
+<nierror code="354677">
+Electrical Power Toolkit:  アナログ値をスケールして、その値を浮動小数点で送信する場合は、スケール係数が1であり、振幅オフセット値が<b>CFG-3</b>で0であることを確認してください。
+</nierror>
+<nierror code="354689">
+Electrical Power Toolkit:  <b>CFG-1</b>または<b>CFG-2</b>の<b>station name</b>、<b>phasor name</b>、<b>analog name</b>、<b>digital names</b>はASCII形式で16バイト以下ある必要があります。このVIは長い名前をASCII形式の16バイトに自動的に強制変換します。
+</nierror>
+<nierror code="354693">
+Electrical Power Toolkit:  各<b>public event information</b>の<b>max sample text</b>および<b>min sample text</b>の合計数は99を超えない値である必要があります。
+</nierror>
+<nierror code="354694">
+Electrical Power Toolkit:  <b>channel phase identification</b>の長さは2を超えない値である必要があります。
+</nierror>
+<nierror code="354695">
+Electrical Power Toolkit:  <b>channel identifier</b>、<b>channel name</b>、<b>monitored circuit component</b>の長さは64を超えない値である必要があります。
+</nierror>
+<nierror code="354696">
+Electrical Power Toolkit:  データファイル内のサンプルレートの数は、999以下である必要があります。
+</nierror>
+<nierror code="354697">
+Electrical Power Toolkit:  エントリ名の数は、エントリ値の数と同じである必要があります。
+</nierror>
+<nierror code="354698">
+Electrical Power Toolkit:  <b>ステーション名</b>と<b>記録用機器名</b>は64文字以下である必要があります。
+</nierror>
+<nierror code="354699">
+Electrical Power Toolkit:  ファイル名は8文字以下である必要があります。
+</nierror>
+<nierror code="363300">
+Electrical Power Toolkit:  少なくとも1つの測定する1次側波帯高調波が周波数範囲に存在しません。スペクトルの周波数範囲を拡張して、含める高調波を増やす必要があります。
+</nierror>
+<nierror code="363301">
+Electrical Power Toolkit:  <b>synchronous speed</b>は、50 Hzシステムの極/零点ペア数に対して3,000の比率であるか、60 Hzシステムの極/零点ペア数に対して3,600の比率である必要があります。
+</nierror>
+<nierror code="363302">
+Electrical Power Toolkit:  <b>window length</b>のの長さが、速度計算の確度を確実にするために十分ではありません。
+</nierror>
+<nierror code="363303">
+Electrical Power Toolkit:  不平衡が5%以上であり、モータが破損する可能性があります。 
+</nierror>
+<nierror code="363343">
+Electrical Power Toolkit:  <b>passband edge frequency</b>が<b>maximum</b>未満の場合、<b>frequency range</b>内の入力基準信号は減衰している場合があります。
+</nierror>
+<nierror code="363344">
+Electrical Power Toolkit:  <b>stopband edge frequency</b>が2 * <b>minimum</b>以上の場合、<b>minimum</b>の第2高調波成分が減衰していない場合があります。<b>minimum</b>の第2高調波成分を減衰させない場合、ゼロ交差が不正確である可能性があります。
+</nierror>
+<nierror code="363448">
+Electrical Power Toolkit:  <b>extended frame data</b>は、65,518バイト以下である必要があります。
+</nierror>
+<nierror code="363449">
+Electrical Power Toolkit:  <b>CFG-3</b>の<b>station name</b>、<b>phasor name</b>、<b>analog name</b>、<b>digital names</b>はASCII形式で255バイト以下である必要があります。このVIは長い名前をASCII形式の255バイトに自動的に強制変換します。
+</nierror>
+<nierror code="363450">
+Electrical Power Toolkit:  コマンドコードは、IEEE Std C37.118.2 2011の規定どおりに予約されています。
+</nierror>
+<nierror code="363451">
+Electrical Power Toolkit:  構成フレームを受信する前にデータフレームを解析することはできません。
+</nierror>
+<nierror code="363498">
+Electrical Power Toolkit:  強制変換は、このVIが離散表現のカーブを量子化するときに起こります。 強制変換により動作タイミングおよびリセットタイミングの確度がわずかに劣化する可能性があります。
+</nierror>
+<nierror code="363499">
+Electrical Power Toolkit:  動作時間またはリセット時間の値が、固定小数点内部データタイプの値より小さい値です。 このVIはこれらの値を0.002048に強制変換します。
+</nierror>
+</nidocument>

@@ -1,0 +1,7 @@
+ch1,2526_1,SwitchBlock1Dev1,SwitchBlock1Dev1,[ch71->com],[ab0->card1r0->c6],[ab1->card1r1->c7]
+ch2,SwitchBlock1Dev1,SwitchBlock1Dev1,2526_1,[ab0->card1r0->c10],[ab1->card1r1->c11],[ch72->com]
+ch3,2526_1,SwitchBlock1Dev1,SwitchBlock1Dev1,[ch73->com],[ab0->card1r0->c14],[ab1->card1r1->c15]
+ch4,SwitchBlock1Dev1,SwitchBlock1Dev1,2526_1,[ab0->card1r0->c18],[ab1->card1r1->c19],[ch74->com]
+ch5,SwitchBlock1Dev1,SwitchBlock1Dev1,2526_1,[ab0->card1r0->c22],[ab1->card1r1->c23],[ch75->com]
+ch6,SwitchBlock1Dev1,SwitchBlock1Dev1,2526_1,[ab0->card1r0->c30],[ab1->card1r1->c31],[ch76->com]
+ch0,SwitchBlock1Dev1,SwitchBlock1Dev1,2526_1,[ab0->card1r0->c2],[ab1->card1r1->c3],[ch70->com]

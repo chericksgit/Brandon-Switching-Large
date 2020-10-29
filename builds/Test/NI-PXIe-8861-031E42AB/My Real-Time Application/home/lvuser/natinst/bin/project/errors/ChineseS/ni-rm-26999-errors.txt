@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Miscellaneous" familyname="Miscellaneous">
+</nifamily>
+</nicomment>
+<nierror code="-419100">
+RM-26999: (Hex 0xFFF99AE4) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419101">
+RM-26999: (Hex 0xFFF99AE3) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419102">
+RM-26999: (Hex 0xFFF99AE2) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419110">
+RM-26999: (Hex 0xFFF99ADA) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419112">
+RM-26999: (Hex 0xFFF99AD8) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419113">
+RM-26999: (Hex 0xFFF99AD7) 内部错误：请联系NI技术支持。
+</nierror>
+<nierror code="-419003">
+RM-26999: (Hex 0xFFF99B45) 指定的主连接器与有效的X系列设备不匹配。有关有效主连接器的列表，请参阅RM-26999用户手册。
+</nierror>
+<nierror code="-419004">
+RM-26999: (Hex 0xFFF99B44) 不支持指定的主连接器。有关有效主连接器的列表，请参阅RM-26999用户手册。
+</nierror>
+<nierror code="-419005">
+RM-26999: (Hex 0xFFF99B43) 指定的物理通道尚未初始化。调用“RM-26999初始化电压通道”或“RM-26999初始化电流通道”，以便在RM-26999会话中使用通道。
+</nierror>
+<nierror code="-419006">
+RM-26999: (Hex 0xFFF99B42) 指定的通道类型不兼容。“物理通道”输入必须仅包含适当类型的通道。
+</nierror>
+<nierror code="-419007">
+RM-26999: (Hex 0xFFF99B41) RM-26999会话没有任何适用的通道。调用“RM-26999初始化电压通道”或“RM-26999初始化电流通道”，以便将通道添加到会话。
+</nierror>
+<nierror code="-419008">
+RM-26999: (Hex 0xFFF99B40) 指定的主连接器无效。
+</nierror>
+<nierror code="-419009">
+RM-26999: (Hex 0xFFF99B3F) RM-26999 API与设备之间发生了通信错误。请仔细检查布线并确保设备已正确通电。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-419011">
+RM-26999: (Hex 0xFFF99B3D) RM-26999 API无法与设备建立通信。请仔细检查布线并确保设备已正确通电。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-419014">
+RM-26999: (Hex 0xFFF99B3A) RM-26999会话中的通道包含一个来自“DAQmx创建虚拟通道”的不受支持的输入端配置。RM-26999仅支持“差分”或“伪差分”。请为NI-DAQmx API选择有效的接线端配置。
+</nierror>
+<nierror code="-419015">
+RM-26999: (Hex 0xFFF99B39) 不支持0欧姆分流值。请指定连接到电流传感器的分流电阻的值。
+</nierror>
+<nierror code="-419016">
+RM-26999: (Hex 0xFFF99B38) 无法为RM-26999预留数字接口。请确保每个设备只关联一个会话。
+</nierror>
+<nierror code="-419017">
+RM-26999: (Hex 0xFFF99B37) 在模拟输入任务中检测到RM-26999 API未应用的自定义换算。与RM-26999 API一起使用时，DAQmx模拟输入任务不能包含用户指定的自定义换算。
+</nierror>
+<nierror code="-419018">
+RM-26999: (Hex 0xFFF99B36) RM-26999会话中的通道包含一个来自“DAQmx创建虚拟通道”的不受支持的测量类型。请将NI-DAQmx中的所有RM-26999通道配置为“电压”AI输入测量类型。
+</nierror>
+<nierror code="-419019">
+RM-26999: (Hex 0xFFF99B35) “RM-26999自动归零电压通道”无法运行，因为另一个任务已经预留了一个或多个电压输入通道。请先清除或取消保留外部任务。
+</nierror>
+<nierror code="-419020">
+RM-26999: (Hex 0xFFF99B34) 指定的电压输入源无效。有效输入包括'_external_connector'和'_aignd_vs_aignd'。
+</nierror>
+<nierror code="-419021">
+RM-26999: (Hex 0xFFF99B33) 提供的RM-26999 DAQmx模拟输入任务无效。请使用“DAQmx创建虚拟通道”创建模拟输入任务。
+</nierror>
+<nierror code="-419022">
+RM-26999: (Hex 0xFFF99B32) RM-26999 DAQmx模拟输入任务处于运行状态。请先停止任务。
+</nierror>
+<nierror code="-419024">
+RM-26999: (Hex 0xFFF99B30) RM-26999会话已关闭。请确保会话线以正确的顺序连接。
+</nierror>
+<nierror code="-419025">
+RM-26999: (Hex 0xFFF99B2F) 尝试读取温度时出现超时错误。请仔细检查布线并确保设备已正确通电。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-419027">
+RM-26999: (Hex 0xFFF99B2D) 打开校准会话时未指定物理通道。必须至少指定一个通道，且建议同时校准设备上的所有通道。
+</nierror>
+<nierror code="-419028">
+RM-26999: (Hex 0xFFF99B2C) 指定的物理通道包括来自多个连接器的通道。一次只能校准一个连接器。
+</nierror>
+<nierror code="419029">
+RM-26999: (Hex 0x664D5) 在该信号路径和通道的校准步骤完成之后，已经提供了额外的校准点。
+</nierror>
+<nierror code="-419030">
+RM-26999: (Hex 0xFFF99B2A) 计算的直流增益超出预期限制。如问题仍未解决，请联系NI技术支持。
+</nierror>
+<nierror code="-419031">
+RM-26999: (Hex 0xFFF99B29) 校准会话检测到正在执行非预期的步骤。请确保完全遵循校准程序。
+</nierror>
+<nierror code="-419032">
+RM-26999: (Hex 0xFFF99B28) 指定的直流输入参考电压与“RM-26999配置直流校准激励”中的任何给定的调整电压完全无法对应。
+</nierror>
+<nierror code="-419033">
+RM-26999: (Hex 0xFFF99B27) 测得的偏移幅度异常大。请确保每个电压输入端接地。如问题仍未解决，请联系NI技术支持。
+</nierror>
+<nierror code="-419034">
+RM-26999: (Hex 0xFFF99B26) 指定的交流输入电压超出可接受的范围。请将交流输入电压调整为大于10V RMS。
+</nierror>
+<nierror code="-419035">
+RM-26999: (Hex 0xFFF99B25) 交流调整步骤PID循环无法保持其循环速率。请确保计算机资源足以处理该校准流程。
+</nierror>
+<nierror code="-419036">
+RM-26999: (Hex 0xFFF99B24) 该设备上计算的增益线性误差超出规范。如问题仍未解决，请联系NI技术支持。
+</nierror>
+<nierror code="-419037">
+RM-26999: (Hex 0xFFF99B23) “RM-26999调整直流增益校准”要求先调用“配置直流校准激励”。
+</nierror>
+<nierror code="-419038">
+RM-26999: (Hex 0xFFF99B22) 必须提供至少五个校准电压用于直流增益校准。
+</nierror>
+<nierror code="-419039">
+RM-26999: (Hex 0xFFF99B21) 未检测到外部电源或电流传感器耗电过多。请检查外部电源的连接，并确保它可以提供当前传感器的最大电流消耗。如仍未解决该问题，请联系NI技术支持。
+</nierror>
+<nierror code="-419040">
+RM-26999: (Hex 0xFFF99B20) 可以为直流校准步骤一次指定一个通道。
+</nierror>
+<nierror code="-419041">
+RM-26999: (Hex 0xFFF99B1F) 每个被校准的通道应指定一个修正因子。
+</nierror>
+<nierror code="-419042">
+RM-26999: (Hex 0xFFF99B1E) 对于直流增益校准，至少两个校准电压必须为正，至少两个校准电压必须为负。
+</nierror>
+<nierror code="-419043">
+RM-26999: (Hex 0xFFF99B1D) 直流增益校准必须至少有一个正点和一个负点，幅度超过900伏。
+</nierror>
+</nidocument>

@@ -1,0 +1,559 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Electrical Power Toolkit" displayname="Electrical Power Toolkit">
+</nifamily>
+</nicomment>
+<nierror code="-363499">
+Electrical Power Toolkit:  <b>time multiplier setting</b> must be greater than or equal to 0.025 and less than or equal to 20.
+</nierror>
+<nierror code="-363498">
+Electrical Power Toolkit:  <b>GD</b> must be greater than or equal to 2 and less than or equal to 64.
+</nierror>
+<nierror code="-363497">
+Electrical Power Toolkit:  <b>reset time parameters</b> must be greater than zero.
+</nierror>
+<nierror code="-363496">
+Electrical Power Toolkit:  <b>curve data</b> must be greater than or equal to zero.
+</nierror>
+<nierror code="-363495">
+Electrical Power Toolkit:  The input energizing quantity <b>G</b> exceeds or falls below the pick-up setting value <b>Gs</b> whereas <b>pick-up signal?</b> is still FALSE.
+</nierror>
+<nierror code="-363494">
+Electrical Power Toolkit:  <b>reset level</b> must be less than or equal to <b>Gs</b> in the FPGA Threshold (Over) VI and must be greater than or equal to <b>Gs</b> in the FPGA Threshold (Under) VI.
+</nierror>
+<nierror code="-363469">
+Electrical Power Toolkit:  The data file type in the .cfg file is invalid.
+</nierror>
+<nierror code="-363450">
+Electrical Power Toolkit:  The input frame type must be the same as that specified in the respective frame parsing VIs.
+</nierror>
+<nierror code="-363449">
+Electrical Power Toolkit:  <b>latitude</b> must be greater than or equal to -90.0 and less than or equal to +90.0.
+</nierror>
+<nierror code="-363448">
+Electrical Power Toolkit:  <b>longitude</b> must be greater than or equal to -179.99999999 and less than or equal ton +180.
+</nierror>
+<nierror code="-363447">
+Electrical Power Toolkit:  <b>phasor name</b> in the <b>phasor channels</b> array in the configuration frames contains repeated values. <b>phasor name</b> must be unique.
+</nierror>
+<nierror code="-363446">
+Electrical Power Toolkit:  The size of a frame must be less than or equal to 65,535 bytes.
+</nierror>
+<nierror code="-363420">
+Electrical Power Toolkit:  The total input voltage channel number must be less than four.
+</nierror>
+<nierror code="-363399">
+Electrical Power Toolkit:  <b>nominal voltage</b> must be greater than zero.
+</nierror>
+<nierror code="-363398">
+Electrical Power Toolkit:  The three-phase system ID in one bus must be unique.
+</nierror>
+<nierror code="-363397">
+Electrical Power Toolkit:  <b>channel phase</b> in one voltage or current system must be unique.
+</nierror>
+<nierror code="-363396">
+Electrical Power Toolkit:  <b>physical channel index</b> must be in the range [0, total channel number of the bus).
+</nierror>
+<nierror code="-363395">
+Electrical Power Toolkit:  <b>physical channel index</b> of each channel must be unique for one bus.
+</nierror>
+<nierror code="-363369">
+Electrical Power Toolkit:  The array elements in the input spectra must have the same delta order.
+</nierror>
+<nierror code="-363368">
+Electrical Power Toolkit:  The number of cycles per block must be greater than zero.
+</nierror>
+<nierror code="-363359">
+Electrical Power Toolkit:  The sample rate of the input signal (1/<b>dt</b>) must be greater than zero. 
+</nierror>
+<nierror code="-363358">
+Electrical Power Toolkit:  The input signals in the <b>data in</b> array must have the same sample rate.
+</nierror>
+<nierror code="-363357">
+Electrical Power Toolkit:  The sample rate of the input signal changed. You must use a constant sample rate.
+</nierror>
+<nierror code="-363356">
+Electrical Power Toolkit:  The number of samples must be greater than zero.
+</nierror>
+<nierror code="-363355">
+Electrical Power Toolkit:  The input signals in the <b>data in</b> array must have the same number of samples.
+</nierror>
+<nierror code="-363344">
+Electrical Power Toolkit:  <b>maximum</b> must be greater than <b>minimum</b> in the <b>frequency range</b> cluster.
+</nierror>
+<nierror code="-363343">
+Electrical Power Toolkit:  <b>minimum</b> in the <b>frequency range</b> cluster must be greater than or equal to 0.1 Hz. <b>maximum</b> in the <b>frequency range</b> cluster must be less than the Nyquist frequency.
+</nierror>
+<nierror code="-363342">
+Electrical Power Toolkit:  <b>passband ripple</b> and <b>stopband attenuation</b> must be greater than zero.
+</nierror>
+<nierror code="-363341">
+Electrical Power Toolkit:  <b>passband edge frequency</b> must be less than <b>stopband edge frequency</b>.
+</nierror>
+<nierror code="-363340">
+Electrical Power Toolkit:  <b>passband edge frequency</b> and <b>stopband edge frequency</b> must be greater than zero and less than the Nyquist frequency.
+</nierror>
+<nierror code="-363339">
+Electrical Power Toolkit:  <b>trigger times</b> must be greater than zero and in ascending order.
+</nierror>
+<nierror code="-363338">
+Electrical Power Toolkit:  <b>triggers per cycle</b> must be greater than zero.
+</nierror>
+<nierror code="-363337">
+Electrical Power Toolkit:  <b>samples per cycle</b> must be greater than zero.
+</nierror>
+<nierror code="-363336">
+Electrical Power Toolkit:  <b>times</b> and <b>resampled signal</b> must have the same array size.
+</nierror>
+<nierror code="-363335">
+Electrical Power Toolkit:  <b>times</b> in the <b>resampled data</b> array must be the same.
+</nierror>
+<nierror code="-363334">
+Electrical Power Toolkit:  <b>times</b> in the <b>resampled data</b> array must be greater than zero and in ascending order.
+</nierror>
+<nierror code="-363314">
+Electrical Power Toolkit:  The input voltage data array size must be equal to the input current data array size.
+</nierror>
+<nierror code="-363313">
+Electrical Power Toolkit:  <b>window length</b> must be greater than zero.
+</nierror>
+<nierror code="-363312">
+Electrical Power Toolkit:  The sampling frequency must be greater than 500 Hz for speed estimation.
+</nierror>
+<nierror code="-363311">
+Electrical Power Toolkit:  <b>synchronous speed</b> must be greater than or equal to <b>full load speed</b>.
+</nierror>
+<nierror code="-363310">
+Electrical Power Toolkit:  <b>synchronous speed</b> and <b>full load speed</b> must be in the range (0,3000] for 50 Hz systems or in the range (0, 3600] for 60 Hz systems.
+</nierror>
+<nierror code="-363309">
+Electrical Power Toolkit:  The array size of nameplate data must be equal to the array size of waveforms for the one-phase signal algorithm. The array size of nameplate data must be three times the array size of waveforms for the three-phase signals algorithm.
+</nierror>
+<nierror code="-363308">
+Electrical Power Toolkit:  <b>df</b> must be greater than zero
+</nierror>
+<nierror code="-363307">
+Electrical Power Toolkit:  <b>f0</b> must be equal to or greater than zero.
+</nierror>
+<nierror code="-363306">
+Electrical Power Toolkit:  <b>slip</b> and <b>speed</b> must be equal to or greater than zero.
+</nierror>
+<nierror code="-363305">
+Electrical Power Toolkit:  <b>fundamental frequency</b> must be greater than zero. 
+</nierror>
+<nierror code="-363304">
+Electrical Power Toolkit:  The array size of <b>spectra</b> must be equal to the array size of <b>speed</b>.
+</nierror>
+<nierror code="-363303">
+Electrical Power Toolkit:  The array size of input data must be a multiple of three. 
+</nierror>
+<nierror code="-363302">
+Electrical Power Toolkit:  <b>maximum frequency</b> must be greater than zero and less than the Nyquist frequency. 
+</nierror>
+<nierror code="-363301">
+Electrical Power Toolkit:  <b>% overlap</b> must be in the range [0, 100).
+</nierror>
+<nierror code="-363300">
+Electrical Power Toolkit:  <b>number of lines</b> must be greater than zero.
+</nierror>
+<nierror code="-361782">
+Electrical Power Toolkit:  <b>max sideband order</b> must be greater than zero.
+</nierror>
+<nierror code="-361781">
+Electrical Power Toolkit:  The array size of input data must be one for the one-phase signal and must be three for the three-phase signals.
+</nierror>
+<nierror code="-361780">
+Electrical Power Toolkit:  The array size of <b>additional efficiency information</b> must be equal to or less than the array size of <b>nameplate information</b>.
+</nierror>
+<nierror code="-361779">
+Electrical Power Toolkit:  Before you specify <b>1/2 load efficiency</b>, you must specify <b>3/4 load efficiency</b>. Before you specify <b>1/4 load efficiency</b>, you must specify <b>3/4 load efficiency</b> and <b>1/2 load efficiency</b>.
+</nierror>
+<nierror code="-361778">
+Electrical Power Toolkit:  The array sizes of <b>speed</b>, <b>nameplate information</b>, and <b>total input active power</b> must be the same.
+</nierror>
+<nierror code="-361777">
+Electrical Power Toolkit:  The signals must be continuous.
+</nierror>
+<nierror code="-361776">
+Electrical Power Toolkit:  The array size of input waveforms must be three times the array size of <b>stator resistance</b>.
+</nierror>
+<nierror code="-361775">
+Electrical Power Toolkit:  The array sizes of <b>speed</b>, <b>motor information</b>, <b>total input active power</b>, and <b>stator resistance</b> must be the same.
+</nierror>
+<nierror code="-361773">
+Electrical Power Toolkit:  <b>stator resistance</b> must be greater than zero.
+</nierror>
+<nierror code="-361772">
+Electrical Power Toolkit:  <b>efficiency</b> must be in the range [0, 100].
+</nierror>
+<nierror code="-361771">
+Electrical Power Toolkit:  <b>full load</b> must be greater than zero.
+</nierror>
+<nierror code="-361770">
+Electrical Power Toolkit:  <b>speed</b> must be equal to or greater than zero.
+</nierror>
+<nierror code="-361760">
+Electrical Power Toolkit:  <b>physical channels</b> of <b>voltage channels</b> or <b>current channels</b> must have at least one value in <b>bus configuration</b>.
+</nierror>
+<nierror code="-354699">
+Electrical Power Toolkit:  You must set <b>open mode</b> to Create or Create or replace when you run this VI on real-time targets.
+</nierror>
+<nierror code="-354698">
+Electrical Power Toolkit:  The numbers of <b>analog channel info</b> and <b>status channel info</b> must not be empty or exceed 999,999.
+</nierror>
+<nierror code="-354697">
+Electrical Power Toolkit:  <b>timestamp multiplier</b> must be greater than or equal to zero.
+</nierror>
+<nierror code="-354696">
+Electrical Power Toolkit:  The data channel number is not consistent with the actual configuration.
+</nierror>
+<nierror code="-354695">
+Electrical Power Toolkit:  The required file is not open.
+</nierror>
+<nierror code="-354694">
+Electrical Power Toolkit:  Manufacturer names must begin with a letter.
+</nierror>
+<nierror code="-354693">
+Electrical Power Toolkit:  The ASCII code of characters of entry names must be between 33 and 127, in decimal.
+</nierror>
+<nierror code="-354692">
+Electrical Power Toolkit:  An entry name must start with one word with 3-32 characters long.
+</nierror>
+<nierror code="-354691">
+Electrical Power Toolkit:  You must set <b>open mode</b> to Create or Create or replace.
+</nierror>
+<nierror code="-354690">
+Electrical Power Toolkit:  You must set <b>open mode</b> to Open (read only).
+</nierror>
+<nierror code="-354689">
+Electrical Power Toolkit:  <b>physical channels</b> contains the same channel for multiple times.
+</nierror>
+<nierror code="-354688">
+Electrical Power Toolkit:  <b>physical channels</b> does not contain the specified phasor channels in the configuration frames.
+</nierror>
+<nierror code="-354687">
+Electrical Power Toolkit:  <b>reporting rate</b> is invalid. Valid reporting rates for a 50 Hz system are 10 fps, 25 fps, and 50 fps. Valid reporting rates for a 60 Hz system are 10 fps, 12 fps, 15 fps, 20 fps, 30 fps, and 60 fps.
+</nierror>
+<nierror code="-354686">
+Electrical Power Toolkit:  <b>time base</b> must be within 1 and 2^24-1.
+</nierror>
+<nierror code="-354685">
+Electrical Power Toolkit:  There must be 16 channels at most in each digital word.
+</nierror>
+<nierror code="-354684">
+Electrical Power Toolkit:  <b>phasors</b> and <b>magnitudes and phases</b> must have the same array size.
+</nierror>
+<nierror code="-354683">
+Electrical Power Toolkit:  <b>frequency high limit</b>, <b>frequency low limit</b>, and <b>df/dt limit</b> must all be greater than zero.
+</nierror>
+<nierror code="-354682">
+Electrical Power Toolkit:  <b>frequency high limit</b> must be greater than <b>frequency low limit</b>.
+</nierror>
+<nierror code="-354681">
+Electrical Power Toolkit:  <b>magnitude low limit</b> and <b>magnitude high limit</b> must be greater than zero.
+</nierror>
+<nierror code="-354680">
+Electrical Power Toolkit:  <b>magnitude high limit</b> must be greater than <b>magnitude low limit</b>.
+</nierror>
+<nierror code="-354679">
+Electrical Power Toolkit:  <b>phase-angle diff limit</b> must be greater than zero and less than or equal to pi.
+</nierror>
+<nierror code="-354678">
+Electrical Power Toolkit:  The size of <b>magnitudes in</b> and <b>timestamps</b> must be equal to the number of physical channels.
+</nierror>
+<nierror code="-354677">
+Electrical Power Toolkit:  The channel numbers of <b>magnitudes</b>, <b>phases</b>, and <b>timestamps</b> must be the same.
+</nierror>
+<nierror code="-354676">
+Electrical Power Toolkit:  The number of samples in <b>data in</b> must be equal to the value of <b>samples to read</b> from the previous iteration.
+</nierror>
+<nierror code="-354675">
+Electrical Power Toolkit:  The number of samples in <b>GPS information</b> must be equal to the value of <b>samples to read</b> from the previous iteration.
+</nierror>
+<nierror code="-354674">
+Electrical Power Toolkit:  <b>max time error</b> must be greater than or equal to 0.
+</nierror>
+<nierror code="-354673">
+Electrical Power Toolkit:  <b>channel index</b> must be less than the number of channels.
+</nierror>
+<nierror code="-354672">
+Electrical Power Toolkit:  <b>nominal Fs/actual Fs</b> must be greater than zero.
+</nierror>
+<nierror code="-354671">
+Electrical Power Toolkit:  In one three-phase power system, <b>physical channels</b> cannot have Phase-to-Neutral and Phase-to-Phase voltages simultaneously.
+</nierror>
+<nierror code="-354669">
+Electrical Power Toolkit:  The aggregation interval you specify must be divisible by the next higher time unit of aggregation interval. For example, if you specify seconds as the time unit, then the next higher time unit is minutes. Thus the aggregation interval can be any number that is the divisor of 60, such as 10, 12, 15, and 20.
+</nierror>
+<nierror code="-354668">
+Electrical Power Toolkit:  The aggregation interval must be greater than the time difference between two subsequent runs.
+</nierror>
+<nierror code="-354667">
+Electrical Power Toolkit:  The size of <b>data flags</b> must be the same as the size of <b>data</b>.
+</nierror>
+<nierror code="-354666">
+Electrical Power Toolkit:  The size of the first dimension of <b>data flags</b> must be the same as the size of the first dimension of <b>data</b>.
+</nierror>
+<nierror code="-354665">
+Electrical Power Toolkit:  The size of <b>EN50160 limits</b> must be the same as the size of the third dimension of <b>data</b>.
+</nierror>
+<nierror code="-354664">
+Electrical Power Toolkit:  The length of <b>channel units</b> is out of range. The length of <b>channel units</b> must be in the range [1,32].
+</nierror>
+<nierror code="-354659">
+Electrical Power Toolkit:  <b>min rate of change</b> is out of range.
+</nierror>
+<nierror code="-354658">
+Electrical Power Toolkit:  <b>max voltage change</b> is out of range.
+</nierror>
+<nierror code="-354657">
+Electrical Power Toolkit:  <b>min steady state difference</b> is out of range.
+</nierror>
+<nierror code="-354656">
+Electrical Power Toolkit:  <b>steadiness of steady state</b> is out of range.
+</nierror>
+<nierror code="-354655">
+Electrical Power Toolkit:  <b>min steady state duration</b> is out of range.
+</nierror>
+<nierror code="-354654">
+Electrical Power Toolkit:  <b>swell threshold</b> is out of range.
+</nierror>
+<nierror code="-354653">
+Electrical Power Toolkit:  <b>dip threshold</b> is out of range.
+</nierror>
+<nierror code="-354652">
+Electrical Power Toolkit:  <b>interruption threshold</b> is out of range.
+</nierror>
+<nierror code="-354651">
+Electrical Power Toolkit:  <b>hysteresis</b> is out of range.
+</nierror>
+<nierror code="-354649">
+Electrical Power Toolkit:  The size of <b>actual ranges</b> must be the same as the size of <b>spectra in</b>.
+</nierror>
+<nierror code="-354648">
+Electrical Power Toolkit:  The size of the first dimension of <b>gains</b> and <b>phase delays</b> must be equal to or greater than the size of <b>spectra in</b>.
+</nierror>
+<nierror code="-354647">
+Electrical Power Toolkit:  The size of the second dimension of <b>gains</b> and <b>phase delays</b> must be the same as the size of <b>frequencies to calibrate</b>.
+</nierror>
+<nierror code="-354646">
+Electrical Power Toolkit:  The size of the third dimension of <b>gains</b> and <b>phase delays</b> must be the same as the size of <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354645">
+Electrical Power Toolkit:  The configuration of physical channels does not match the wiring information in <b>data in</b>.
+</nierror>
+<nierror code="-354644">
+Electrical Power Toolkit:  The values of <b>frequencies to calibrate</b> must be in ascending order.
+</nierror>
+<nierror code="-354643">
+Electrical Power Toolkit:  The number of rows in <b>phase delays</b> must be equal to or greater than the size of  <b>one-cycle fundamental vectors in</b>.
+</nierror>
+<nierror code="-354642">
+Electrical Power Toolkit:  The number of columns in <b>phase delays</b> must be the same as the size of <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354641">
+Electrical Power Toolkit:  The size of <b>actual ranges</b> must be the same as the size of <b>one-cycle fundamental vectors in</b>.
+</nierror>
+<nierror code="-354640">
+Electrical Power Toolkit:  The values of <b>ranges to calibrate</b> must be in ascending order.
+</nierror>
+<nierror code="-354639">
+Electrical Power Toolkit:  The size of <b>full-range RMS values</b> must be equal to or greater than the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354638">
+Electrical Power Toolkit:  The size of <b>offsets</b> must be equal to or greater than the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354637">
+Electrical Power Toolkit:  The number of rows in <b>gains</b> must be equal to or greater than the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354636">
+Electrical Power Toolkit:  The number of columns in <b>gains</b> must be the same as the number of columns in <b>ranges to calibrate</b>.
+</nierror>
+<nierror code="-354635">
+Electrical Power Toolkit:  The size of <b>actual ranges</b> must be the same as the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354634">
+Electrical Power Toolkit:  <b>detection threshold</b> is out of range.
+</nierror>
+<nierror code="-354633">
+Electrical Power Toolkit:  <b>start logical 1 length</b> is out of range.
+</nierror>
+<nierror code="-354632">
+Electrical Power Toolkit:  <b>start logical 0 length</b> is out of range.
+</nierror>
+<nierror code="-354631">
+Electrical Power Toolkit:  <b>maximum event length</b> is out of range.
+</nierror>
+<nierror code="-354630">
+Electrical Power Toolkit:  <b>signaling frequency</b> is out of range.
+</nierror>
+<nierror code="-354629">
+Electrical Power Toolkit:  The value of <b>data index</b> does not correspond to the value of <b>data in</b>.
+</nierror>
+<nierror code="-354628">
+Electrical Power Toolkit:  The value of <b>spectra index</b> or <b>vector index</b> does not correspond to <b>complex spectra</b>.
+</nierror>
+<nierror code="-354627">
+Electrical Power Toolkit:  The number of columns in <b>data in</b> does not match the number of physical channels.
+</nierror>
+<nierror code="-354626">
+Electrical Power Toolkit:  The value of <b>channel index</b> does not correspond to <b>waveforms</b>.
+</nierror>
+<nierror code="-354625">
+Electrical Power Toolkit:  <b>high limit</b> must be greater than <b>low limit</b>.
+</nierror>
+<nierror code="-354624">
+Electrical Power Toolkit:  <b>hysteresis</b> must be equal to or greater than zero.
+</nierror>
+<nierror code="-354623">
+Electrical Power Toolkit:  Not a valid digital formula function.
+</nierror>
+<nierror code="-354622">
+Electrical Power Toolkit:  The number of rows in <b>data in</b> does not match the number of samples per 10 or 12 cycles.
+</nierror>
+<nierror code="-354619">
+Electrical Power Toolkit:  The size of <b>sensitivity</b> must be equal to or greater than the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354618">
+Electrical Power Toolkit:  The size of <b>CT/VT ratio</b> must be equal to or greater than the size of <b>waveforms in</b>.
+</nierror>
+<nierror code="-354617">
+Electrical Power Toolkit:  The number of samples per cycle must be within the range of 128 to 512.
+</nierror>
+<nierror code="-354616">
+Electrical Power Toolkit:  The number of samples per cycle must be even.
+</nierror>
+<nierror code="-354615">
+Electrical Power Toolkit:  <b>rate</b> in the DAQmx Timing (Sample Clock) VI must be greater than <b>samples per cycle</b> in the Initialize System VI times 57.5 for a 50 Hz electrical power system and times 69 for a 60 Hz electrical power system.
+</nierror>
+<nierror code="-354614">
+Electrical Power Toolkit:  <b>number of channels</b> must be within 1 to 16.
+</nierror>
+<nierror code="-354613">
+Electrical Power Toolkit:  <b>reference channel index</b> must be less than <b>number of channels</b>.
+</nierror>
+<nierror code="-354612">
+Electrical Power Toolkit:  The number of samples per cycle must be 192.
+</nierror>
+<nierror code="-354611">
+Electrical Power Toolkit:  <b>number of channels</b> must be in the range [1, 32].
+</nierror>
+<nierror code="-354609">
+Electrical Power Toolkit:  <b>interval length</b> is out of range. <b>interval length</b> must not be less than zero.
+</nierror>
+<nierror code="-354608">
+Electrical Power Toolkit:  The input voltage and current signals in the same phase of the electrical power system must have the same sample rate.
+</nierror>
+<nierror code="-354607">
+Electrical Power Toolkit:  The input voltage and current signals in the same phase of the electrical power system must have the same number of samples.
+</nierror>
+<nierror code="-354606">
+Electrical Power Toolkit:  <b>maximum harmonic order</b> must be less than or equal to (samples per cycle-1)/2.
+</nierror>
+<nierror code="-354605">
+Electrical Power Toolkit:  <b>delta order</b> in the input spectra must be greater than zero, and  the reciprocal of <b>delta order</b> must be an integer.
+</nierror>
+<nierror code="-354604">
+Electrical Power Toolkit:  The size of the input array must be equal to three.
+</nierror>
+<nierror code="354608">
+Electrical Power Toolkit:  <b>3-phase power values</b> is valid only when the number of input voltage channels and input current channels is a multiple of three.
+</nierror>
+<nierror code="354609">
+Electrical Power Toolkit:  The channel numbers of voltage and current data are not equal.
+</nierror>
+<nierror code="354615">
+Electrical Power Toolkit:  The input voltage channels of each system should be A (L1), B (L2), and C (L3).
+</nierror>
+<nierror code="354618">
+Electrical Power Toolkit:  In an unbalanced system, the re-calculated phase voltage values are approximate values.
+</nierror>
+<nierror code="354630">
+Electrical Power Toolkit:  This VI does not calculate Phase N.
+</nierror>
+<nierror code="354669">
+Electrical Power Toolkit:  The length of the input data arrays must be at least one week to ensure valid result.
+</nierror>
+<nierror code="354671">
+Electrical Power Toolkit:  The format of <b>analogs</b> is 16-bit integer and <b>analogs</b> is out of range. Change the format of <b>analogs</b> to 32-bit floating point when you initialize the system.
+</nierror>
+<nierror code="354672">
+Electrical Power Toolkit:  <b>df/dt</b> is a 16-bit integer and is out of range. Change the format of <b>df/dt</b> to 32-bit floating point when you initialize the system.
+</nierror>
+<nierror code="354673">
+Electrical Power Toolkit:  The frequency deviation from the nominal frequency is a 16-bit integer and is out of range. Change the format of <b>frequency</b> to 32-bit floating point when you initialize the system.
+</nierror>
+<nierror code="354674">
+Electrical Power Toolkit:  The format of <b>phasors</b> is 16-bit integer and <b>phasors</b> is out of range. Change the format of <b>phasors</b> to 32-bit floating point when you initialize the system.
+</nierror>
+<nierror code="354675">
+Electrical Power Toolkit:  <b>ID</b> is out of range. <b>ID</b> must be between 1 and 65,534, inclusive.
+</nierror>
+<nierror code="354676">
+Electrical Power Toolkit:  When you scale the phasor values and transmit the values in floating point, ensure that the scale factor value is 1 and that the angle offset value is 0 in <b>CFG-3</b>.
+</nierror>
+<nierror code="354677">
+Electrical Power Toolkit:  When you scale the analog values and transmit the values in floating point, ensure that the scale factor value is 1 and that the magnitude offset value is 0 in <b>CFG-3</b>.
+</nierror>
+<nierror code="354689">
+Electrical Power Toolkit:  <b>station name</b>, <b>phasor name</b>, <b>analog name</b>, and <b>digital names</b> in <b>CFG-1</b> or <b>CFG-2</b> must be less than or equal to 16 bytes in ASCII format. This VI automatically coerces long names to 16 bytes in ASCII format.
+</nierror>
+<nierror code="354693">
+Electrical Power Toolkit:  The total numbers of <b>max sample text</b> and <b>min sample text</b> per each <b>public event information</b> must not exceed 99.
+</nierror>
+<nierror code="354694">
+Electrical Power Toolkit:  The length of <b>channel phase identification</b> must not exceed 2.
+</nierror>
+<nierror code="354695">
+Electrical Power Toolkit:  The lengths of <b>channel identifier</b>, <b>channel name</b>, and <b>monitored circuit component</b> must not exceed 64.
+</nierror>
+<nierror code="354696">
+Electrical Power Toolkit:  The number of sample rates in the data file must not exceed 999.
+</nierror>
+<nierror code="354697">
+Electrical Power Toolkit:  The number of entry names must be equal to the number of entry values.
+</nierror>
+<nierror code="354698">
+Electrical Power Toolkit:  <b>station name</b> and <b>recording device name</b> must contain no more than 64 characters.
+</nierror>
+<nierror code="354699">
+Electrical Power Toolkit:  The filename must be less than or equal to eight characters.
+</nierror>
+<nierror code="363300">
+Electrical Power Toolkit:  At least one first order sideband harmonics to measure does not exist in the frequency range. Extend the frequency range of the spectra to include more harmonics.
+</nierror>
+<nierror code="363301">
+Electrical Power Toolkit:  <b>synchronous speed</b> must be the ratio of 3,000 to the pole pair number for 50 Hz systems or the ratio of 3,600 to the pole pair number for 60 Hz systems.
+</nierror>
+<nierror code="363302">
+Electrical Power Toolkit:  <b>window length</b> is not long enough to ensure the accuracy of calculating the speed.
+</nierror>
+<nierror code="363303">
+Electrical Power Toolkit:  The unbalance is more than 5% and may damage the motors. 
+</nierror>
+<nierror code="363343">
+Electrical Power Toolkit:  If <b>passband edge frequency</b> is less than <b>maximum</b>, the input reference signal within <b>frequency range</b> might be attenuated.
+</nierror>
+<nierror code="363344">
+Electrical Power Toolkit:  If <b>stopband edge frequency</b> is greater than or equal to 2 * <b>minimum</b>, the second harmonic component of <b>minimum</b> might not be attenuated. Zero crossings might be inaccurate without attenuating the second harmonic component of <b>minimum</b>.
+</nierror>
+<nierror code="363448">
+Electrical Power Toolkit:  <b>extended frame data</b> must be less than or equal to 65,518 bytes.
+</nierror>
+<nierror code="363449">
+Electrical Power Toolkit:  <b>station name</b>, <b>phasor name</b>, <b>analog name</b>, and <b>digital names</b> in <b>CFG-3</b> must be less than or equal to 255 bytes in ASCII format. This VI automatically coerces long names to 255 bytes in ASCII format.
+</nierror>
+<nierror code="363450">
+Electrical Power Toolkit:  The command code is reserved as specified in IEEE Std C37.118.2-2011.
+</nierror>
+<nierror code="363451">
+Electrical Power Toolkit:  You cannot parse the data frame before receiving the configuration frame.
+</nierror>
+<nierror code="363498">
+Electrical Power Toolkit:  Coercion occurs when this VI quantizes the curve in a discrete representation. The coercion may cause a slight operate timing inaccuracy or reset timing inaccuracy.
+</nierror>
+<nierror code="363499">
+Electrical Power Toolkit:  Some values of operate or reset time are smaller than what the internal fixed-point data type can represent. This VI coerces these values to 0.002048.
+</nierror>
+</nidocument>

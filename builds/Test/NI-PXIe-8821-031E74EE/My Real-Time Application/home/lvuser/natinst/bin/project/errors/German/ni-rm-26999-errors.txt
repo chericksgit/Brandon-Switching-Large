@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Miscellaneous" familyname="Miscellaneous">
+</nifamily>
+</nicomment>
+<nierror code="-419100">
+RM-26999: (Hex 0xFFF99AE4) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419101">
+RM-26999: (Hex 0xFFF99AE3) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419102">
+RM-26999: (Hex 0xFFF99AE2) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419110">
+RM-26999: (Hex 0xFFF99ADA) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419112">
+RM-26999: (Hex 0xFFF99AD8) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419113">
+RM-26999: (Hex 0xFFF99AD7) Interner Fehler. Wenden Sie sich bitte an den Support von National Instruments.
+</nierror>
+<nierror code="-419003">
+RM-26999: (Hex 0xFFF99B45) Der angegebene Hauptsteckverbinder entspricht keinem gültigen Gerät der X-Serie. Eine Liste der gültigen Hauptsteckverbinder finden Sie im Benutzerhandbuch des RM-26999.
+</nierror>
+<nierror code="-419004">
+RM-26999: (Hex 0xFFF99B44) Der angegebene Hauptsteckverbinder (Master Connector) wird nicht unterstützt. Eine Liste der gültigen Hauptsteckverbinder finden Sie im Benutzerhandbuch des RM-26999.
+</nierror>
+<nierror code="-419005">
+RM-26999: (Hex 0xFFF99B43) Ein angegebener physikalischer Kanal wurde nicht initialisiert. Zum Einbinden des Kanals in die RM-26999-Session muss "RM-26999 Initialize Voltage Channel" oder "RM-26999 Initialize Current Channel" aufgerufen werden.
+</nierror>
+<nierror code="-419006">
+RM-26999: (Hex 0xFFF99B42) Der angegebene Kanal hat einen inkompatiblen Typ. Der Eingang "Physikalische Kanäle" darf nur Kanäle mit dem zulässigen Typ enthalten.
+</nierror>
+<nierror code="-419007">
+RM-26999: (Hex 0xFFF99B41) Die RM-26999-Session enthält keine anwendbaren Kanäle. Zum Hinzufügen von Kanälen zur Session muss "RM-26999 Initialize Voltage Channel" oder "RM-26999 Initialize Current Channel" aufgerufen werden.
+</nierror>
+<nierror code="-419008">
+RM-26999: (Hex 0xFFF99B40) Der angegebene Hauptsteckverbinder ist ungültig.
+</nierror>
+<nierror code="-419009">
+RM-26999: (Hex 0xFFF99B3F) Die RM-26999-API hat einen Fehler bei der Kommunikation mit dem Gerät festgestellt. Bitte überprüfen Sie die Verkabelung und vergewissern Sie sich, dass das Gerät ordnungsgemäß eingeschaltet ist. Sollte sich das Problem nicht beheben lassen, setzen Sie sich bitte mit dem Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-419011">
+RM-26999: (Hex 0xFFF99B3D) Die RM-26999-API konnte mit dem Gerät nicht kommunizieren. Bitte überprüfen Sie die Verkabelung und vergewissern Sie sich, dass das Gerät ordnungsgemäß eingeschaltet ist. Sollte sich das Problem nicht beheben lassen, setzen Sie sich bitte mit dem Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-419014">
+RM-26999: (Hex 0xFFF99B3A) Die Eingangsschaltungsart eines Kanals in der RM-26999-Session wird von "DAQmx - Virtuellen Kanal erzeugen" nicht unterstützt. Das RM-26999 lässt nur die Schaltungsarten "Differentiell" und "Pseudodifferentiell" zu. Bitte wählen Sie eine gültige Schaltungsart mit der NI-DAQmx-API.
+</nierror>
+<nierror code="-419015">
+RM-26999: (Hex 0xFFF99B39) Ein Shunt-Widerstand mit einer Größe von 0 Ohm ist nicht zulässig. Bitte geben Sie den Wert des Shunt-Widerstandes an, der an den Stromwandler angeschlossen ist.
+</nierror>
+<nierror code="-419016">
+RM-26999: (Hex 0xFFF99B38) Es konnte keine digitale Schnittstelle für RM-26999 reserviert werden. Vergewissern Sie sich, dass jedem Gerät nur eine Session zugeordnet ist.
+</nierror>
+<nierror code="-419017">
+RM-26999: (Hex 0xFFF99B37) In einem Task zur Erfassung von Analogsignalen wurde eine benutzerdefinierte Skalierung erkannt, die von der RM-26999-API nicht angewendet wurde. Der DAQmx-Task zur Erfassung von Analogsignalen darf bei der Arbeit mit der RM-26999-API keine benutzerdefinierte Skalierung enthalten.
+</nierror>
+<nierror code="-419018">
+RM-26999: (Hex 0xFFF99B36) Die Messungsart eines Kanals in der RM-26999-Session wird von "DAQmx - Virtuellen Kanal erzeugen" nicht unterstützt. Konfigurieren Sie die Erfassung von Analogsignalen für alle RM-26999-Kanäle in NI-DAQmx auf die Messungsart "Spannung".
+</nierror>
+<nierror code="-419019">
+RM-26999: (Hex 0xFFF99B35) "Auto-Zero Voltage Channel" konnte nicht ausgeführt werden, weil mindestens ein Kanal zur Erfassung von Spannungen bereits durch einen anderen Task reserviert ist. Löschen Sie den anderen Task oder heben Sie seine Reservierung auf.
+</nierror>
+<nierror code="-419020">
+RM-26999: (Hex 0xFFF99B34) Die angegebene Spannungsquelle ist ungültig. Für diesen Parameter sind nur '_external_connector' und '_aignd_vs_aignd' zulässig.
+</nierror>
+<nierror code="-419021">
+RM-26999: (Hex 0xFFF99B33) Der für RM-26999 angegebene DAQmx-Task zur Erfassung von Analogsignalen ist ungültig. Erstellen Sie mit Hilfe von "DAQmx - Virtuellen Kanal erzeugen" einen Task zur Erfassung von Analogsignalen.
+</nierror>
+<nierror code="-419022">
+RM-26999: (Hex 0xFFF99B32) Der für RM-26999 angegebene Task zur Erfassung von Analogsignalen wird gerade ausgeführt. Bitte beenden Sie den Task zuerst.
+</nierror>
+<nierror code="-419024">
+RM-26999: (Hex 0xFFF99B30) Die RM-26999-Session wurde geschlossen. Bitte vergewissern Sie sich, dass die Session in der richtigen Reihenfolge mit anderen Objekten in Ihrem Programm verbunden ist.
+</nierror>
+<nierror code="-419025">
+RM-26999: (Hex 0xFFF99B2F) Beim Abfragen der Temperatur ist ein Timeout-Fehler aufgetreten. Bitte überprüfen Sie die Verkabelung und vergewissern Sie sich, dass das Gerät ordnungsgemäß eingeschaltet ist. Sollte sich das Problem nicht beheben lassen, setzen Sie sich bitte mit dem Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-419027">
+RM-26999: (Hex 0xFFF99B2D) Beim Öffnen der Kalibrierung wurden keine physikalischen Kanäle angegeben. Es muss mindestens ein Kanal angegeben werden, und es wird empfohlen, dass alle Kanäle eines Geräts gemeinsam kalibriert werden.
+</nierror>
+<nierror code="-419028">
+RM-26999: (Hex 0xFFF99B2C) Die angegebenen physikalischen Kanäle enthalten Kanäle, die mit mehreren Anschlüssen arbeiten. Es kann immer nur ein Anschluss kalibriert werden.
+</nierror>
+<nierror code="419029">
+RM-26999: (Hex 0x664D5) Nach dem Abschließen des Kalibrierungsschritts für diesen Signalweg und diesen Kanal wurde ein weiterer Kalibrierpunkt hinzugefügt.
+</nierror>
+<nierror code="-419030">
+RM-26999: (Hex 0xFFF99B2A) Die berechnete Gleichspannungsverstärkung lag außerhalb des erwarteten Bereichs. Sollte das Problem weiter bestehen, setzen Sie sich bitte mit unserem technischen Support in Verbindung.
+</nierror>
+<nierror code="-419031">
+RM-26999: (Hex 0xFFF99B29) Bei der Kalibrierung wurde festgestellt, dass gerade ein unerwarteter Schritt ausgeführt wird. Vergewissern Sie sich, dass Sie die Schritte der Kalibrieranleitung genauestens befolgen.
+</nierror>
+<nierror code="-419032">
+RM-26999: (Hex 0xFFF99B28) Die als Bezugsspannung angegebene Gleichspannung entspricht nicht genau den angegebenen Justierspannungen von "RM-26999 Configure DC Calibration Stimulus".
+</nierror>
+<nierror code="-419033">
+RM-26999: (Hex 0xFFF99B27) Der gemessene Offset war ungewöhnlich hoch.  Bitte vergewissern Sie sich, dass jeder Spannungseingang ordnungsgemäß geerdet ist. Sollte das Problem weiter bestehen, setzen Sie sich bitte mit unserem technischen Support in Verbindung.
+</nierror>
+<nierror code="-419034">
+RM-26999: (Hex 0xFFF99B26) Die Eingangswechselspannung liegt außerhalb des zulässigen Bereichs. Bitte stellen Sie die Eingangswechselspannung so ein, dass ihre Effektivspannung größer als 10 V ist.
+</nierror>
+<nierror code="-419035">
+RM-26999: (Hex 0xFFF99B25) Bei der AC-Anpassung in der PID-Schleife konnte die Schleifenrate nicht aufrecht erhalten werden. Sorgen Sie dafür, dass ausreichend Computerressourcen für die Kalibrierung verfügbar sind.
+</nierror>
+<nierror code="-419036">
+RM-26999: (Hex 0xFFF99B24) Der berechnete Fehler für die Verstärkungslinearisierung dieses Geräts liegt außerhalb der Angaben in den Spezifikationen. Sollte das Problem weiter bestehen, setzen Sie sich bitte mit unserem technischen Support in Verbindung.
+</nierror>
+<nierror code="-419037">
+RM-26999: (Hex 0xFFF99B23) Für "RM-26999 Adjust DC Gain Calibration" muss zuerst "Configure DC Calibration Stimulus" aufgerufen werden.
+</nierror>
+<nierror code="-419038">
+RM-26999: (Hex 0xFFF99B22) Für die Kalibrierung der DC-Verstärkung müssen mindestens fünf Kalibrierspannungen bereitgestellt werden.
+</nierror>
+<nierror code="-419039">
+RM-26999: (Hex 0xFFF99B21) Die externe Stromversorgung wurde nicht erkannt, oder Stromwandler ziehen zu viel Strom. Bitte vergewissern Sie sich, dass die externe Stromversorgung ordnungsgemäß angeschlossen ist und genügend Strom für Ihre Stromwandler bereitstellen kann. Sollte sich das Problem nicht beheben lassen, setzen Sie sich bitte mit dem Support von National Instruments in Verbindung.
+</nierror>
+<nierror code="-419040">
+RM-26999: (Hex 0xFFF99B20) Für DC-Kalibrierungsschritte kann nur jeweils ein Kanal angegeben werden.
+</nierror>
+<nierror code="-419041">
+RM-26999: (Hex 0xFFF99B1F) Für jeden zu kalibrierenden Kanal sollte nur ein Korrekturfaktor angegeben werden.
+</nierror>
+<nierror code="-419042">
+RM-26999: (Hex 0xFFF99B1E) Für die Kalibrierung der DC-Verstärkung müssen mindestens zwei Kalibrierungsspannungen positiv und mindestens zwei Kalibrierungsspannungen negativ sein.
+</nierror>
+<nierror code="-419043">
+RM-26999: (Hex 0xFFF99B1D) Für die Kalibrierung der DC-Verstärkung muss mindestens ein positiver und ein negativer Punkt mit einer Amplitude über 900 Volt vorliegen.
+</nierror>
+</nidocument>

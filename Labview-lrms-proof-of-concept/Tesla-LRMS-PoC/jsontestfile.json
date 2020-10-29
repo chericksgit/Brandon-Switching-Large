@@ -1,0 +1,46 @@
+{
+    "SMUResourceName": "SMU",
+    "SMUChannels": "0",
+	"SMUSourceMode": 1021,
+	"SMUOutputFunction": 1007,
+    "SMUSourceTransientResponse": 1039,
+    "SMUCurrent": 1.0,
+    "SMUCurrentLevelRange": 1.0,
+    "SMUMeasurementSense": 1008,
+    "SMUMeasurementApertureTime": 0.010,
+    "SMUSourceAdvancedSourceDelay": 0.000100,
+    "SMUVoltage": 6,
+    "SMUSourceAdvancedSequenceLoopCount": 127,
+    "SMUMeasurementAdvancedDCNoiseRejection": 1044,
+	"SMUSequenceName": "MySequence",
+	"SMUStep1_Source_DCCurrent_CurrentLevel": 1150009,
+	"SMUStep2_Measurement_ApertureTime": 1150058,
+	"SMUStep3_Source_Advanced_SourceDelay": 1150051,
+	"SMUSequenceNumberOfSteps": 3,
+	
+	"ScanList": "SCANALL",
+		
+	"Switch1ResourceName": "2526_1",
+	"Switch1Topology": "2526/2-Wire 79x1 Mux",
+	"Switch1ScanList": "ch70:76->com",
+	
+	"Switch2ResourceName": "SwitchBlock1Dev1",
+	"Switch2Topology": "Configured Topology",
+	"Switch2ScanList": "[c2->card1r2->c26], [c3->card1r3->c27]; [c6->card1r2->c26], [c7->card1r3->c27]; [c10->card1r2->c26], [c11->card1r3->c27]; [c14->card1r2->c26], [c15->card1r3->c27]; [c18->card1r2->c26], [c19->card1r3->c27]; [c22->card1r2->c26], [c23->card1r3->c27]; [c30->card1r2->c26], [c31->card1r3->c27];",
+	
+	"DMMResourceName": "DMM",
+	"DMMFunction": 0,
+	"DMMResolution": 0.1,
+	"DMMRange": 0.1,
+	"DMMSampleCount": 0,
+	"DMMApertureTimeUnit": 0,
+	"DMMApertureTime": 0.010,
+	"DMMNumberOfAverages": 1,
+	"DMMAutoZero": 0,
+	"DMMADCCalibration": 0,
+	"DMMSettleTime": 0.0001,
+	"DMMControlAction": 0,
+	"DMMVoltageFaultUpperLimit": 0.000100,
+	
+	"ApplicationNumberOfWeldChannels": 127
+}
