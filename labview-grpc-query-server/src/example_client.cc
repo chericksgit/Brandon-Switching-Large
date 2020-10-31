@@ -212,7 +212,7 @@ int main(int argc, char **argv)
 		configRequest.set_smumeasurementaperturetime(0.010);
 		configRequest.set_smusourceadvancedsourcedelay(0.000100);
 		configRequest.set_smuvoltage(6);
-		configRequest.set_smusourceadvancedsequenceloopcount(20);
+		configRequest.set_smusourceadvancedsequenceloopcount(127);
 		configRequest.set_smumeasurementadvanceddcnoiserejection(1044);
 		configRequest.set_smusequencename("MySequence");
 		configRequest.set_scanlist("SCANALL");
@@ -229,7 +229,7 @@ int main(int argc, char **argv)
 		configRequest.set_dmmsettletime(0.0001);
 		configRequest.set_dmmcontrolaction(0);
         configRequest.set_dmmvoltagefaultupperlimit(0.000050);
-        configRequest.set_applicationnumberofweldchannels(7);
+        configRequest.set_applicationnumberofweldchannels(127);
         cout << "Configuring measurement" << endl;
         client.m_Stub->SendConfig(&ctx, configRequest, &configResponse);
         cout << "Config sent: " << configResponse.acknowledge() << endl;

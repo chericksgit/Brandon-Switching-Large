@@ -97,6 +97,9 @@ AddOutputFilter chunkFilter
 		<Item Name="jsontestfile.json" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/jsontestfile.json"/>
 		<Item Name="liblabview_measurement_server.so" Type="Document" URL="../../liblabview_measurement_server.so"/>
 		<Item Name="PPack_Connection_Test.csv" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/PPack_Connection_Test.csv"/>
+		<Item Name="Read and Check Faults - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Read and Check Faults - Debug.vi"/>
+		<Item Name="SMU Switch Handshaking - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/SMU Switch Handshaking - Debug.vi"/>
+		<Item Name="Stream Four Probe - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Stream Four Probe - Debug.vi"/>
 		<Item Name="Stream Four Probe Asynchronous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Stream Four Probe Asynchronous.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -227,49 +230,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Update JSON Config.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Update JSON Config.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Package" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">weld_1.0.0-18_x64.ipk</Property>
-				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
-				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
-				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
-				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
-				<Property Name="PKG_actions.Count" Type="Int">0</Property>
-				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
-				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">19</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">My Package</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
-				<Property Name="PKG_description" Type="Str"></Property>
-				<Property Name="PKG_destinations.Count" Type="Int">0</Property>
-				<Property Name="PKG_displayName" Type="Str">My Package</Property>
-				<Property Name="PKG_displayVersion" Type="Str"></Property>
-				<Property Name="PKG_feedDescription" Type="Str"></Property>
-				<Property Name="PKG_feedName" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str"></Property>
-				<Property Name="PKG_hostname" Type="Str"></Property>
-				<Property Name="PKG_maintainer" Type="Str">National Instruments &lt;&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Package/Package</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="PKG_packageName" Type="Str">weld</Property>
-				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
-				<Property Name="PKG_section" Type="Str">Application Software</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">4</Property>
-				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
-				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E74EE/liblabview_measurement_server.so</Property>
-				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
-				<Property Name="PKG_sources[2].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
-				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
-				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/PPack_Connection_Test.csv</Property>
-				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
-				<Property Name="PKG_synopsis" Type="Str">Test</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
-			</Item>
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D18B7FE6-1429-454B-B24C-194AEDEAE1C3}</Property>
@@ -286,7 +246,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AE5566-3046-40F5-9ED7-32573B0BEB47}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -322,6 +282,49 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Weld PoC PPackB" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
+				<Property Name="IPK_lastBuiltPackage" Type="Str">weldppackb_1.0.0-31_x64.ipk</Property>
+				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
+				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
+				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
+				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
+				<Property Name="PKG_buildNumber" Type="Int">32</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">Weld PoC PPackB</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
+				<Property Name="PKG_description" Type="Str">This is a package for the PPackB build</Property>
+				<Property Name="PKG_destinations.Count" Type="Int">0</Property>
+				<Property Name="PKG_displayName" Type="Str">Weld PoC PPackB</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str">This is a feed for the PPackB build</Property>
+				<Property Name="PKG_feedName" Type="Str">Weld PoC PPackB</Property>
+				<Property Name="PKG_homepage" Type="Str">www.ni.com</Property>
+				<Property Name="PKG_hostname" Type="Str">http://usauslt-sk4hx27:9092</Property>
+				<Property Name="PKG_maintainer" Type="Str">Chad Erickson &lt;chad.erickson@ni.com&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Weld PoC PPackB/Package</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">weldppackb</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
+				<Property Name="PKG_sources.Count" Type="Int">4</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E74EE/liblabview_measurement_server.so</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
+				<Property Name="PKG_sources[2].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
+				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
+				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/PPack_Connection_Test.csv</Property>
+				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
+				<Property Name="PKG_synopsis" Type="Str">Weld Test</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
