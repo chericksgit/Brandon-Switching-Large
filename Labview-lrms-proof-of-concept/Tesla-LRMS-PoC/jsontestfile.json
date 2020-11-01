@@ -3,7 +3,7 @@
     "SMUChannels": "0",
 	"SMUSourceMode": 1021,
 	"SMUOutputFunction": 1007,
-    "SMUSourceTransientResponse": 1039,
+    "SMUSourceTransientResponse": 1038,
     "SMUCurrent": 1.0,
     "SMUCurrentLevelRange": 1.0,
     "SMUMeasurementSense": 1008,
