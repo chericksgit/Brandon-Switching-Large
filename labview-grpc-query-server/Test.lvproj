@@ -186,6 +186,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -193,6 +194,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Check if Measurement Finished" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Check if Measurement Finished"/>
 			<Item Name="Check if Measurement Ready.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Check if Measurement Ready.vi"/>
 			<Item Name="Find Specification Match.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Find Specification Match.vi"/>
+			<Item Name="Get Switch Names and Topology.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Get Switch Names and Topology.vi"/>
 			<Item Name="Global Operations.ctl" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Global Operations.ctl"/>
 			<Item Name="JSONCluster.ctl" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/JSONCluster.ctl"/>
 			<Item Name="JSONDefaults.ctl" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/JSONDefaults.ctl"/>
@@ -247,7 +249,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AE5566-3046-40F5-9ED7-32573B0BEB47}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -285,7 +287,7 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Weld PoC PPackB" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">weldppackb_1.0.0-32_x64.ipk</Property>
+				<Property Name="IPK_lastBuiltPackage" Type="Str">weldppackb_1.0.0-33_x64.ipk</Property>
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
 				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
@@ -293,7 +295,7 @@ AddOutputFilter chunkFilter
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">33</Property>
+				<Property Name="PKG_buildNumber" Type="Int">34</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">Weld PoC PPackB</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str">This is a package for the PPackB build</Property>
