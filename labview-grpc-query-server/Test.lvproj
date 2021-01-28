@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
-	<Property Name="varPersistentID:{151223E2-50DD-4CB0-AAA7-88908E3BEBF1}" Type="Ref">/NI-PXIe-8821-031E74EE/Acquisition Finished.lvlib/Acquisition Finished</Property>
+	<Property Name="varPersistentID:{151223E2-50DD-4CB0-AAA7-88908E3BEBF1}" Type="Ref">/NI-PXIe-8821-031E4F38/Acquisition Finished.lvlib/Acquisition Finished</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -14,9 +14,9 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="NI-PXIe-8821-031E74EE" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">NI-PXIe-8821-031E74EE</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.20</Property>
+	<Item Name="NI-PXIe-8821-031E4F38" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">NI-PXIe-8821-031E4F38</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.23</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -263,15 +263,15 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[0].itemID" Type="Str">{930F1430-A4BE-4850-8E04-BC20AEFE60AC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/NI-PXIe-8821-031E74EE/ExampleMeasurementServer.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/NI-PXIe-8821-031E4F38/ExampleMeasurementServer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/NI-PXIe-8821-031E74EE/Four Probe Asynchronous.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/NI-PXIe-8821-031E4F38/Four Probe Asynchronous.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/NI-PXIe-8821-031E74EE/Stream Four Probe Asynchronous.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/NI-PXIe-8821-031E4F38/Stream Four Probe Asynchronous.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
@@ -289,7 +289,7 @@ AddOutputFilter chunkFilter
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
 				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
-				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E4F38/Build Specifications/My Real-Time Application</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
@@ -313,16 +313,16 @@ AddOutputFilter chunkFilter
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
 				<Property Name="PKG_sources.Count" Type="Int">4</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E4F38/Build Specifications/My Real-Time Application</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
 				<Property Name="PKG_sources[1].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E74EE/liblabview_measurement_server.so</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E4F38/liblabview_measurement_server.so</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_sources[2].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
+				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E4F38/jsontestfile.json</Property>
 				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
 				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/P2_Module_Scan_List.csv</Property>
+				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E4F38/P2_Module_Scan_List.csv</Property>
 				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">Weld Test</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
