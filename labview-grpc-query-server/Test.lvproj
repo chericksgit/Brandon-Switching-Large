@@ -16,7 +16,7 @@
 	</Item>
 	<Item Name="NI-PXIe-8821-031E4F38" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">NI-PXIe-8821-031E4F38</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.23</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.22</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -249,7 +249,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AE5566-3046-40F5-9ED7-32573B0BEB47}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">44</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -285,7 +285,7 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Weld PoC Module" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">weldmodule_1.0.0-4_x64.ipk</Property>
+				<Property Name="IPK_lastBuiltPackage" Type="Str">weldmodule_1.0.0-6_x64.ipk</Property>
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
 				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
@@ -293,7 +293,7 @@ AddOutputFilter chunkFilter
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">5</Property>
+				<Property Name="PKG_buildNumber" Type="Int">7</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">Weld PoC Module</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str">This is a package for the Module build</Property>

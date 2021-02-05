@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Miscellaneous" familyname="Miscellaneous">
+</nifamily>
+</nicomment>
+<nierror code="-419100">
+RM-26999: (Hex 0xFFF99AE4) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419101">
+RM-26999: (Hex 0xFFF99AE3) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419102">
+RM-26999: (Hex 0xFFF99AE2) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419110">
+RM-26999: (Hex 0xFFF99ADA) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419112">
+RM-26999: (Hex 0xFFF99AD8) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419113">
+RM-26999: (Hex 0xFFF99AD7) Internal Error: Please contact National Instruments support.
+</nierror>
+<nierror code="-419003">
+RM-26999: (Hex 0xFFF99B45) The master connector specified does not correspond to a valid X Series device. See the RM-26999 user manual for a list of valid masters.
+</nierror>
+<nierror code="-419004">
+RM-26999: (Hex 0xFFF99B44) The master connector specified is not supported. See the RM-26999 user manual for a list of valid masters.
+</nierror>
+<nierror code="-419005">
+RM-26999: (Hex 0xFFF99B43) A physical channel specified has not been initialized. Call 'RM-26999 Initialize Voltage Channel' or 'RM-26999 Initialize Current Channel' to use the channel with the RM-26999 session.
+</nierror>
+<nierror code="-419006">
+RM-26999: (Hex 0xFFF99B42) The channel specified was of an incompatible type. The 'physical channels' input must only include channels of the appropriate type.
+</nierror>
+<nierror code="-419007">
+RM-26999: (Hex 0xFFF99B41) The RM-26999 session contains no applicable channels. Call 'RM-26999 Initialize Voltage Channel' or 'RM-26999 Initialize Current Channel' to add channels to the session.
+</nierror>
+<nierror code="-419008">
+RM-26999: (Hex 0xFFF99B40) The master connector specified is invalid.
+</nierror>
+<nierror code="-419009">
+RM-26999: (Hex 0xFFF99B3F) The RM-26999 API encountered a communication error with the device. Please double check cabling and ensure the device is properly powered on. If the problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419011">
+RM-26999: (Hex 0xFFF99B3D) The RM-26999 API was unable to establish communication with the device. Please double check cabling and ensure the device is properly powered on. If the problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419014">
+RM-26999: (Hex 0xFFF99B3A) A channel in the RM-26999 session has an unsupported input terminal configuration from DAQmx Create Virtual Channel. Only 'Differential' or 'Pseudodifferential' are supported by the RM-26999. Please select a valid terminal configuration with the NI-DAQmx API.
+</nierror>
+<nierror code="-419015">
+RM-26999: (Hex 0xFFF99B39) A shunt value of 0 ohms is not supported. Please specify the value of the shunt resistor connected to the current transducer.
+</nierror>
+<nierror code="-419016">
+RM-26999: (Hex 0xFFF99B38) Unable to reserve a digital interface to the RM-26999. Please ensure that there is only one session associated with each device.
+</nierror>
+<nierror code="-419017">
+RM-26999: (Hex 0xFFF99B37) A custom scale not applied by the RM-26999 API was detected on the analog input task. The DAQmx analog input task cannot have a user-specified custom scale when used with the RM-26999 API.
+</nierror>
+<nierror code="-419018">
+RM-26999: (Hex 0xFFF99B36) A channel in the RM-26999 session has an unsupported measurement type from DAQmx Create Virtual Channel. Please configure all RM-26999 channels in NI-DAQmx as the 'Voltage' AI Input Measurement Type.
+</nierror>
+<nierror code="-419019">
+RM-26999: (Hex 0xFFF99B35) 'RM-26999 Auto-Zero Voltage Channel' was unable to run because one or more voltage input channels are already reserved by another task. Please clear or unreserve the external task first.
+</nierror>
+<nierror code="-419020">
+RM-26999: (Hex 0xFFF99B34) The specified voltage input source is not valid. Valid inputs include '_external_connector' and '_aignd_vs_aignd'.
+</nierror>
+<nierror code="-419021">
+RM-26999: (Hex 0xFFF99B33) The RM-26999 DAQmx analog input task provided is not valid. Please use DAQmx Create Virtual Channel to create an analog input task.
+</nierror>
+<nierror code="-419022">
+RM-26999: (Hex 0xFFF99B32) The RM-26999 DAQmx analog input task is in a running state. Please stop the task first.
+</nierror>
+<nierror code="-419024">
+RM-26999: (Hex 0xFFF99B30) The RM-26999 session has been closed. Please ensure that the session wire is properly connected in the correct sequence.
+</nierror>
+<nierror code="-419025">
+RM-26999: (Hex 0xFFF99B2F) Timeout error when attempting to read temperature. Please double check cabling and ensure the device is properly powered on. If the problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419027">
+RM-26999: (Hex 0xFFF99B2D) No physical channels were specified when opening the calibration session. At least one channel must be specified, and it is recommended that all channels on a device be calibrated together.
+</nierror>
+<nierror code="-419028">
+RM-26999: (Hex 0xFFF99B2C) The physical channels specified include channels from more than one connector. Only a single connector may be calibrated at a time.
+</nierror>
+<nierror code="419029">
+RM-26999: (Hex 0x664D5) An additional calibration point has been provided after the calibration step for this signal path and channel have already been finished.
+</nierror>
+<nierror code="-419030">
+RM-26999: (Hex 0xFFF99B2A) The calculated DC gain was outside of expected limits. If this problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419031">
+RM-26999: (Hex 0xFFF99B29) The calibration session detected an unexpected step that is being executed. Please ensure that you are following the calibration procedure exactly.
+</nierror>
+<nierror code="-419032">
+RM-26999: (Hex 0xFFF99B28) The DC input reference voltage specified does not correspond closely to any of the given adjustment voltages from 'RM-26999 Configure DC Calibration Stimulus'.
+</nierror>
+<nierror code="-419033">
+RM-26999: (Hex 0xFFF99B27) The magnitude of the measured offset was unusually large.  Please ensure that each voltage input terminal is connected to ground. If this problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419034">
+RM-26999: (Hex 0xFFF99B26) The AC input voltage is out of the acceptable range. Please adjust AC input voltage to greater than 10V RMS.
+</nierror>
+<nierror code="-419035">
+RM-26999: (Hex 0xFFF99B25) The AC adjustment step PID loop was unable to keep its loop rate. Please ensure that the computer resources are free to focus on this calibration routine.
+</nierror>
+<nierror code="-419036">
+RM-26999: (Hex 0xFFF99B24) The calculated error for gain linearization on this device is outside of specifications. If this problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419037">
+RM-26999: (Hex 0xFFF99B23) 'RM-26999 Adjust DC Gain calibration' requires that 'Configure DC Calibration Stimulus' is called first.
+</nierror>
+<nierror code="-419038">
+RM-26999: (Hex 0xFFF99B22) At least five calibration voltages must be provided for DC gain calibration.
+</nierror>
+<nierror code="-419039">
+RM-26999: (Hex 0xFFF99B21) The external power supply was not detected or current sensors are drawing too much power. Please check the connections for the external power supply and ensure that it can supply the maximum current draw of your current transducers. If the problem persists, contact National Instruments support.
+</nierror>
+<nierror code="-419040">
+RM-26999: (Hex 0xFFF99B20) Exactly one channel at a time may be specified for DC calibration steps.
+</nierror>
+<nierror code="-419041">
+RM-26999: (Hex 0xFFF99B1F) Exactly one correction factor should be specified per channel being calibrated.
+</nierror>
+<nierror code="-419042">
+RM-26999: (Hex 0xFFF99B1E) At least two calibration voltages must be positive and at least two calibration voltages must be negative for DC gain calibration.
+</nierror>
+<nierror code="-419043">
+RM-26999: (Hex 0xFFF99B1D) DC gain calibration must have at least one positive and one negative point with magnitude over 900 volts.
+</nierror>
+</nidocument>
