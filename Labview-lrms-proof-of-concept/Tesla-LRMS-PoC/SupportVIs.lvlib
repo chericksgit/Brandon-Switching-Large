@@ -15,6 +15,7 @@
 	<Item Name="2810A Open Ref.vi" Type="VI" URL="../2810A Open Ref.vi"/>
 	<Item Name="2810A Parse Scan List.vi" Type="VI" URL="../2810A Parse Scan List.vi"/>
 	<Item Name="DMM Acq Done.vi" Type="VI" URL="../DMM Acq Done.vi"/>
+	<Item Name="DMM Acq Done_old_2_5_2021.vi" Type="VI" URL="../DMM Acq Done_old_2_5_2021.vi"/>
 	<Item Name="DMM Cfg Meas.vi" Type="VI" URL="../DMM Cfg Meas.vi"/>
 	<Item Name="DMM Cfg Multi Point.vi" Type="VI" URL="../DMM Cfg Multi Point.vi"/>
 	<Item Name="DMM Cfg Sample Trig Slope.vi" Type="VI" URL="../DMM Cfg Sample Trig Slope.vi"/>
