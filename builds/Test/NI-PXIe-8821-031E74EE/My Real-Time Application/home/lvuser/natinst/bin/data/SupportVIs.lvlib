@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="DMM Acq Done.vi" Type="VI" URL="../DMM Acq Done.vi"/>
 	<Item Name="DMM Acq Done_old_2_5_2021.vi" Type="VI" URL="../DMM Acq Done_old_2_5_2021.vi"/>
 	<Item Name="DMM Cfg Meas.vi" Type="VI" URL="../DMM Cfg Meas.vi"/>
 	<Item Name="DMM Cfg Multi Point.vi" Type="VI" URL="../DMM Cfg Multi Point.vi"/>
