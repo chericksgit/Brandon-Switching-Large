@@ -92,11 +92,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Acquisition Finished.lvlib" Type="Library" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Acquisition Finished.lvlib"/>
+		<Item Name="EM3_Terminal.csv" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/EM3_Terminal.csv"/>
 		<Item Name="ExampleMeasurementServer.vi" Type="VI" URL="../ExampleMeasurementServer.vi"/>
 		<Item Name="Four Probe Asynchronous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Four Probe Asynchronous.vi"/>
 		<Item Name="jsontestfile.json" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/jsontestfile.json"/>
 		<Item Name="liblabview_measurement_server.so" Type="Document" URL="../../liblabview_measurement_server.so"/>
-		<Item Name="P2_ProdPack_Scan_List.csv" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/P2_ProdPack_Scan_List.csv"/>
 		<Item Name="Read and Check Faults - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Read and Check Faults - Debug.vi"/>
 		<Item Name="SMU Switch Handshaking - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/SMU Switch Handshaking - Debug.vi"/>
 		<Item Name="Stream Four Probe - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Stream Four Probe - Debug.vi"/>
@@ -235,6 +235,49 @@ AddOutputFilter chunkFilter
 			<Item Name="Update JSON Config.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Update JSON Config.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="EM3_Terminal" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
+				<Property Name="IPK_lastBuiltPackage" Type="Str">p2prodpack_1.0.0-5_x64.ipk</Property>
+				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
+				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
+				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
+				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_actions.Count" Type="Int">0</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">EM3_Terminal</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
+				<Property Name="PKG_description" Type="Str">This is a package for the EM3 Terminal Weld Test</Property>
+				<Property Name="PKG_destinations.Count" Type="Int">0</Property>
+				<Property Name="PKG_displayName" Type="Str">EM3 Terminal</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_feedDescription" Type="Str">This is a feed for the PPackB build</Property>
+				<Property Name="PKG_feedName" Type="Str">Weld PoC PPackB</Property>
+				<Property Name="PKG_homepage" Type="Str">www.ni.com</Property>
+				<Property Name="PKG_hostname" Type="Str">http://usauslt-sk4hx27:9092</Property>
+				<Property Name="PKG_maintainer" Type="Str">Chad Erickson &lt;chad.erickson@ni.com&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/EM3_Terminal/Package</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">em3terminal</Property>
+				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
+				<Property Name="PKG_sources.Count" Type="Int">4</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E74EE/liblabview_measurement_server.so</Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
+				<Property Name="PKG_sources[2].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
+				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
+				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
+				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/EM3_Terminal.csv</Property>
+				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
+				<Property Name="PKG_synopsis" Type="Str">EM3 Terminal Weld Test</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+			</Item>
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D18B7FE6-1429-454B-B24C-194AEDEAE1C3}</Property>
@@ -251,7 +294,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AE5566-3046-40F5-9ED7-32573B0BEB47}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">44</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -285,49 +328,6 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="P2_ProdPack" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">p2prodpack_1.0.0-5_x64.ipk</Property>
-				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
-				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
-				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
-				<Property Name="IPK_startup.Target.Source" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
-				<Property Name="PKG_actions.Count" Type="Int">0</Property>
-				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
-				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">6</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">P2_ProdPack</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
-				<Property Name="PKG_description" Type="Str">This is a package for the P2 ProdPack Weld Test</Property>
-				<Property Name="PKG_destinations.Count" Type="Int">0</Property>
-				<Property Name="PKG_displayName" Type="Str">P2 ProdPack</Property>
-				<Property Name="PKG_displayVersion" Type="Str"></Property>
-				<Property Name="PKG_feedDescription" Type="Str">This is a feed for the PPackB build</Property>
-				<Property Name="PKG_feedName" Type="Str">Weld PoC PPackB</Property>
-				<Property Name="PKG_homepage" Type="Str">www.ni.com</Property>
-				<Property Name="PKG_hostname" Type="Str">http://usauslt-sk4hx27:9092</Property>
-				<Property Name="PKG_maintainer" Type="Str">Chad Erickson &lt;chad.erickson@ni.com&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/P2_ProdPack/Package</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="PKG_packageName" Type="Str">p2prodpack</Property>
-				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
-				<Property Name="PKG_section" Type="Str">Application Software</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">4</Property>
-				<Property Name="PKG_sources[0].Destination" Type="Str">root_0</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/NI-PXIe-8821-031E74EE/Build Specifications/My Real-Time Application</Property>
-				<Property Name="PKG_sources[0].Type" Type="Str">RTEXE Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/NI-PXIe-8821-031E74EE/liblabview_measurement_server.so</Property>
-				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
-				<Property Name="PKG_sources[2].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
-				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
-				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/P2_ProdPack_Scan_List.csv</Property>
-				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
-				<Property Name="PKG_synopsis" Type="Str">P2 ProdPack Weld Test</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
