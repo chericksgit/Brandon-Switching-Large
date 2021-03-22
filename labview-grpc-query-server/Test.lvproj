@@ -98,6 +98,7 @@ AddOutputFilter chunkFilter
 		<Item Name="liblabview_measurement_server.so" Type="Document" URL="../../liblabview_measurement_server.so"/>
 		<Item Name="P2_ProdPack_Scan_List.csv" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/P2_ProdPack_Scan_List.csv"/>
 		<Item Name="Read and Check Faults - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Read and Check Faults - Debug.vi"/>
+		<Item Name="SMU Switch Handshaking - Debug - Continuous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/SMU Switch Handshaking - Debug - Continuous.vi"/>
 		<Item Name="SMU Switch Handshaking - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/SMU Switch Handshaking - Debug.vi"/>
 		<Item Name="Stream Four Probe - Debug.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Stream Four Probe - Debug.vi"/>
 		<Item Name="Stream Four Probe Asynchronous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Stream Four Probe Asynchronous.vi"/>
@@ -195,6 +196,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Check for Faults.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Check for Faults.vi"/>
 			<Item Name="Check if Measurement Finished" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Check if Measurement Finished"/>
 			<Item Name="Check if Measurement Ready.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Check if Measurement Ready.vi"/>
+			<Item Name="DMM Cfg Multi Point - Continuous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/DMM Cfg Multi Point - Continuous.vi"/>
 			<Item Name="Find Specification Match.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Find Specification Match.vi"/>
 			<Item Name="Get Switch Names and Topology.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Get Switch Names and Topology.vi"/>
 			<Item Name="Global Operations.ctl" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Global Operations.ctl"/>
