@@ -92,7 +92,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Acquisition Finished.lvlib" Type="Library" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Acquisition Finished.lvlib"/>
-		<Item Name="EM3_Terminal.csv" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/EM3_Terminal.csv"/>
+		<Item Name="EM3_Manual_Weld_Tester.csv" Type="Document" URL="../../../EM3_provided and scripted/EM3_Manual_Weld_Tester.csv"/>
 		<Item Name="ExampleMeasurementServer.vi" Type="VI" URL="../ExampleMeasurementServer.vi"/>
 		<Item Name="Four Probe Asynchronous.vi" Type="VI" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/Four Probe Asynchronous.vi"/>
 		<Item Name="jsontestfile.json" Type="Document" URL="../../Labview-lrms-proof-of-concept/Tesla-LRMS-PoC/jsontestfile.json"/>
@@ -236,7 +236,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EM3_Terminal" Type="{CED73189-3D7D-4B2F-B6C9-EA03FBC59E14}">
-				<Property Name="IPK_lastBuiltPackage" Type="Str">em3terminal_1.0.0-0_x64.ipk</Property>
+				<Property Name="IPK_lastBuiltPackage" Type="Str">em3terminal_1.0.0-1_x64.ipk</Property>
 				<Property Name="IPK_startup.Restart" Type="Bool">true</Property>
 				<Property Name="IPK_startup.Target.Child" Type="Str">{D992D9B6-F750-44B6-8ED5-7DEE34F352DD}</Property>
 				<Property Name="IPK_startup.Target.Destination" Type="Str">root_0</Property>
@@ -244,7 +244,7 @@ AddOutputFilter chunkFilter
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildNumber" Type="Int">2</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">EM3_Terminal</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_description" Type="Str">This is a package for the EM3 Terminal Weld Test</Property>
@@ -273,7 +273,7 @@ AddOutputFilter chunkFilter
 				<Property Name="PKG_sources[2].ID" Type="Ref">/NI-PXIe-8821-031E74EE/jsontestfile.json</Property>
 				<Property Name="PKG_sources[2].Type" Type="Str">File</Property>
 				<Property Name="PKG_sources[3].Destination" Type="Str">root_3</Property>
-				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/EM3_Terminal.csv</Property>
+				<Property Name="PKG_sources[3].ID" Type="Ref">/NI-PXIe-8821-031E74EE/EM3_Manual_Weld_Tester.csv</Property>
 				<Property Name="PKG_sources[3].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">EM3 Terminal Weld Test</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
@@ -294,7 +294,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A5AE5566-3046-40F5-9ED7-32573B0BEB47}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -305,7 +305,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C94C4640-93C4-42C8-BF6F-DEEFF442A7F0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9031CE5-9D9F-4E62-A281-FA184567079F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-PXIe-8821-031E74EE/ExampleMeasurementServer.vi</Property>
